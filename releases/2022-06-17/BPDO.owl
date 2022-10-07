@@ -2624,8 +2624,9 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3603413&amp;group_id=177891
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BPDO_00000012">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BPDO_00000106"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C20993"/>
-        <obo:IAO_0000115>A screening method used assess impulsivity in both clinical and healthy populations.</obo:IAO_0000115>
         <obo:IAO_0000115>An inventory that measures level of difficulty and level of assistance needed in 22 areas of functioning, including housing, food, cleaning, hygiene, daily activities, physical health, psychotic symptoms, treatment or illness information, psychological distress, personal security, social security, security of others, alcohol, drugs, social relationships, emotional relationships, sexual life, care of children, education, financial tasks use of the telephone, and use of public transportation.</obo:IAO_0000115>
+        <obo:IAO_0000118>Camberwell assessment of need</obo:IAO_0000118>
+        <obo:NCIT_P325>A screening method used assess impulsivity in both clinical and healthy populations.</obo:NCIT_P325>
         <bpdo:Author>Aparna</bpdo:Author>
         <bpdo:CommentOnDefinition>Modified definition</bpdo:CommentOnDefinition>
         <bpdo:CommentOnHierarchy>No reference ontology to obo/BFO classification available.
@@ -2635,7 +2636,6 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3603413&amp;group_id=177891
         <oboInOwl:hasDbXref>https://www.ncbi.nlm.nih.gov/pubmed/25657456</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>https://www.ncbi.nlm.nih.gov/pubmed/31735532</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>Cambridge gambling task</oboInOwl:hasExactSynonym>
-        <rdfs:label>Camberwell assessment of need</rdfs:label>
         <rdfs:label>Cambridge gamble task</rdfs:label>
         <rdfs:seeAlso>http://old.ncpz.ru/siteconst/userfiles/file/englit/Kim%20T.%20Mueser%20PhD%20(Editor),%20Dilip%20V.%20Jeste%20MD%20(Editor)%20-%20Clinical%20Handbook%20of%20Schizophrenia.pdf</rdfs:seeAlso>
     </owl:Class>
@@ -5653,7 +5653,8 @@ As per definition, &apos;parietal association cortex&apos; is a complex structur
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BPDO_00000125"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_0050117"/>
         <obo:IAO_0000115>Dysfunction of parvalbumin (PV)-positive GABAergic interneurons (PVIs) within the prefrontal cortex (PFC).</obo:IAO_0000115>
-        <obo:IAO_0000115>Infections which largely acquired from the mother in the perinatal period and manifest soon after birth.</obo:IAO_0000115>
+        <obo:IAO_0000118>parvalbumin-positive interneurons dysfunction</obo:IAO_0000118>
+        <obo:NCIT_P325>Infections which largely acquired from the mother in the perinatal period and manifest soon after birth.</obo:NCIT_P325>
         <bpdo:Author>Thrishna</bpdo:Author>
         <bpdo:CommentOnHierarchy>&apos;perinatal infection&apos; can be under &apos;disease by infectious agent&apos;
 No reference ontology to BFO classification available</bpdo:CommentOnHierarchy>
@@ -5663,7 +5664,6 @@ No reference ontology to BFO classification available</bpdo:CommentOnHierarchy>
         <oboInOwl:hasDbXref>https://www.ncbi.nlm.nih.gov/pubmed/21135314</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>https://www.ncbi.nlm.nih.gov/pubmed/26812921</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>https://www.ncbi.nlm.nih.gov/pubmed/30181867</oboInOwl:hasDbXref>
-        <rdfs:label>parvalbumin-positive interneurons dysfunction</rdfs:label>
         <rdfs:label>perinatal infection</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -5674,7 +5674,7 @@ No reference ontology to BFO classification available</bpdo:CommentOnHierarchy>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BPDO_00000189"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/NCIT_P325"/>
         <owl:annotatedTarget>Infections which largely acquired from the mother in the perinatal period and manifest soon after birth.</owl:annotatedTarget>
         <rdfs:isDefinedBy>https://www.ncbi.nlm.nih.gov/pubmed/28734510</rdfs:isDefinedBy>
     </owl:Axiom>
@@ -6935,13 +6935,13 @@ is diagnostic procedure.</bpdo:CommentOnHierarchy>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_3312"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PW_0000394"/>
         <obo:IAO_0000115>A pathway projects from the hypothalamus to the pituitary gland.</obo:IAO_0000115>
-        <obo:IAO_0000115>Subcortical infarcts presenting with manic symptoms . Patients are typically older, with late-onset bipolar disorder, cognitive impairment, and extensive subcortical white matter hyperintense lesions on brain magnetic resonance images.</obo:IAO_0000115>
+        <obo:IAO_0000118>tuberoinfundibular pathway</obo:IAO_0000118>
+        <obo:NCIT_P325>Subcortical infarcts presenting with manic symptoms . Patients are typically older, with late-onset bipolar disorder, cognitive impairment, and extensive subcortical white matter hyperintense lesions on brain magnetic resonance images.</obo:NCIT_P325>
         <bpdo:Author>Thrishna</bpdo:Author>
         <bpdo:CommentOnHierarchy>vascular bipolar disorder refers to type of bipolar disorder, it can be classified under bipolar disorder.</bpdo:CommentOnHierarchy>
         <bpdo:fromPubMed></bpdo:fromPubMed>
         <oboInOwl:hasDbXref>https://www.ncbi.nlm.nih.gov/pubmed/19922550</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>Vascular mania</oboInOwl:hasExactSynonym>
-        <rdfs:label>tuberoinfundibular pathway</rdfs:label>
         <rdfs:label>vascular bipolar disorder</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -6952,7 +6952,7 @@ is diagnostic procedure.</bpdo:CommentOnHierarchy>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BPDO_00000264"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/NCIT_P325"/>
         <owl:annotatedTarget>Subcortical infarcts presenting with manic symptoms . Patients are typically older, with late-onset bipolar disorder, cognitive impairment, and extensive subcortical white matter hyperintense lesions on brain magnetic resonance images.</owl:annotatedTarget>
         <rdfs:isDefinedBy>https://www.ncbi.nlm.nih.gov/pubmed/15673617</rdfs:isDefinedBy>
     </owl:Axiom>

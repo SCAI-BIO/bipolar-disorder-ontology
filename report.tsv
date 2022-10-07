@@ -4,12 +4,6 @@ ERROR	duplicate_label	IAO:0000119	rdfs:label	definition source
 ERROR	duplicate_label	SCDO:0000340	rdfs:label	definition source
 ERROR	duplicate_label	dc11:contributor	rdfs:label	contributor
 ERROR	duplicate_label	dc:contributor	rdfs:label	contributor
-ERROR	multiple_definitions	obo:BPDO_00000012	IAO:0000115	A screening method used assess impulsivity in both clinical and healthy populations.
-ERROR	multiple_definitions	obo:BPDO_00000012	IAO:0000115	An inventory that measures level of difficulty and level of assistance needed in 22 areas of functioning, including housing, food, cleaning, hygiene, daily activities, physical health, psychotic symptoms, treatment or illness information, psychological distress, personal security, social security, security of others, alcohol, drugs, social relationships, emotional relationships, sexual life, care of children, education, financial tasks use of the telephone, and use of public transportation.
-ERROR	multiple_definitions	obo:BPDO_00000189	IAO:0000115	Dysfunction of parvalbumin (PV)-positive GABAergic interneurons (PVIs) within the prefrontal cortex (PFC).
-ERROR	multiple_definitions	obo:BPDO_00000189	IAO:0000115	Infections which largely acquired from the mother in the perinatal period and manifest soon after birth.
-ERROR	multiple_definitions	obo:BPDO_00000264	IAO:0000115	A pathway projects from the hypothalamus to the pituitary gland.
-ERROR	multiple_definitions	obo:BPDO_00000264	IAO:0000115	Subcortical infarcts presenting with manic symptoms . Patients are typically older, with late-onset bipolar disorder, cognitive impairment, and extensive subcortical white matter hyperintense lesions on brain magnetic resonance images.
 ERROR	multiple_definitions	IAO:0000112	IAO:0000115	A phrase describing how a class name should be used. May also include other kinds of examples that facilitate immediate understanding of a class semantics, such as widely known prototypical subclasses or instances of the class. Although essential for high level terms, examples for low level terms (e.g., Affymetrix HU133 array) are not@en
 ERROR	multiple_definitions	IAO:0000112	IAO:0000115	A phrase describing how a term should be used and/or a citation to a work which uses it. May also include other kinds of examples that facilitate immediate understanding, such as widely know prototypes or instances of a class, or cases where a relation is said to hold.@en
 ERROR	multiple_definitions	IAO:0000115	IAO:0000115	A property representing the English language definitions of what NCI means by the concept. They may also include information about the definition's source and attribution in a form that can easily be interpreted by software.
@@ -44,12 +38,6 @@ ERROR	multiple_definitions	oboInOwl:id	IAO:0000115	An identifier for an individu
 ERROR	multiple_definitions	oboInOwl:id	IAO:0000115	An identifier is an information content entity that is the outcome of a dubbing process and is used to refer to one instance of entity shared by a group of people to refer to that individual entity.
 ERROR	multiple_definitions	oboInOwl:inSubset	IAO:0000115	An association that connects the concept defining a particular terminology subset with concepts that belong to this subset.
 ERROR	multiple_definitions	oboInOwl:inSubset	IAO:0000115	In subset.
-ERROR	multiple_labels	obo:BPDO_00000012	rdfs:label	Camberwell assessment of need
-ERROR	multiple_labels	obo:BPDO_00000012	rdfs:label	Cambridge gamble task
-ERROR	multiple_labels	obo:BPDO_00000189	rdfs:label	parvalbumin-positive interneurons dysfunction
-ERROR	multiple_labels	obo:BPDO_00000189	rdfs:label	perinatal infection
-ERROR	multiple_labels	obo:BPDO_00000264	rdfs:label	tuberoinfundibular pathway
-ERROR	multiple_labels	obo:BPDO_00000264	rdfs:label	vascular bipolar disorder
 ERROR	multiple_labels	HP:0000741	rdfs:label	Apathy
 ERROR	multiple_labels	HP:0000741	rdfs:label	apathy
 ERROR	multiple_labels	IAO:0000111	rdfs:label	editor preferred label
