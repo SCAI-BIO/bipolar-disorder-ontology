@@ -1,21 +1,132 @@
 Level	Rule Name	Subject	Property	Value
 ERROR	illegal_use_of_built_in_vocabulary	rdf:type	rdf:type	owl:AnnotationProperty
+ERROR	duplicate_label	https://www.wikidata.org/wiki/Property:P1659	rdfs:label	see also@en
 ERROR	duplicate_label	IAO:0000119	rdfs:label	definition source
 ERROR	duplicate_label	SCDO:0000340	rdfs:label	definition source
 ERROR	duplicate_label	dc11:contributor	rdfs:label	contributor
 ERROR	duplicate_label	dc:contributor	rdfs:label	contributor
+ERROR	multiple_labels	HP:0000741	rdfs:label	Apathy
+ERROR	multiple_labels	HP:0000741	rdfs:label	apathy
+ERROR	multiple_labels	IAO:0000111	rdfs:label	editor preferred label
+ERROR	multiple_labels	IAO:0000111	rdfs:label	editor preferred label@en
+ERROR	multiple_labels	IAO:0000111	rdfs:label	editor preferred term
+ERROR	multiple_labels	IAO:0000111	rdfs:label	editor preferred term@en
+ERROR	multiple_labels	IAO:0000111	rdfs:label	editor preferred term~editor preferred label
+ERROR	multiple_labels	IAO:0000111	rdfs:label	editor preferred term~editor preferred label@en
+ERROR	multiple_labels	IAO:0000111	rdfs:label	??????
+ERROR	multiple_labels	IAO:0000111	rdfs:label	??????@zh
+ERROR	multiple_labels	IAO:0000111	rdfs:label	??????~??????
+ERROR	multiple_labels	IAO:0000111	rdfs:label	??????
+ERROR	multiple_labels	IAO:0000111	rdfs:label	??????@zh
+ERROR	multiple_labels	IAO:0000112	rdfs:label	example of usage
+ERROR	multiple_labels	IAO:0000112	rdfs:label	example of usage@en
+ERROR	multiple_labels	IAO:0000114	rdfs:label	has curation status
+ERROR	multiple_labels	IAO:0000114	rdfs:label	has curation status@en
+ERROR	multiple_labels	IAO:0000114	rdfs:label	?????
+ERROR	multiple_labels	IAO:0000114	rdfs:label	?????@zh
+ERROR	multiple_labels	IAO:0000115	rdfs:label	definition
+ERROR	multiple_labels	IAO:0000115	rdfs:label	definition@en
+ERROR	multiple_labels	IAO:0000115	rdfs:label	textual definition
+ERROR	multiple_labels	IAO:0000115	rdfs:label	textual definition@en
+ERROR	multiple_labels	IAO:0000115	rdfs:label	??
+ERROR	multiple_labels	IAO:0000115	rdfs:label	??@zh
+ERROR	multiple_labels	IAO:0000115	rdfs:label	????
+ERROR	multiple_labels	IAO:0000115	rdfs:label	????@zh
+ERROR	multiple_labels	IAO:0000116	rdfs:label	editor note
+ERROR	multiple_labels	IAO:0000116	rdfs:label	editor note@en
+ERROR	multiple_labels	IAO:0000116	rdfs:label	???
+ERROR	multiple_labels	IAO:0000116	rdfs:label	???@zh
+ERROR	multiple_labels	IAO:0000117	rdfs:label	definition editor
+ERROR	multiple_labels	IAO:0000117	rdfs:label	definition editor@en
+ERROR	multiple_labels	IAO:0000117	rdfs:label	definition_editor
+ERROR	multiple_labels	IAO:0000117	rdfs:label	term editor
+ERROR	multiple_labels	IAO:0000117	rdfs:label	term editor@en
+ERROR	multiple_labels	IAO:0000117	rdfs:label	?????
+ERROR	multiple_labels	IAO:0000117	rdfs:label	?????@zh
+ERROR	multiple_labels	IAO:0000118	rdfs:label	alternative term
+ERROR	multiple_labels	IAO:0000118	rdfs:label	alternative term@en
+ERROR	multiple_labels	IAO:0000118	rdfs:label	????
+ERROR	multiple_labels	IAO:0000118	rdfs:label	????@zh
+ERROR	multiple_labels	IAO:0000119	rdfs:label	definition source
+ERROR	multiple_labels	IAO:0000119	rdfs:label	definition source@en
+ERROR	multiple_labels	IAO:0000119	rdfs:label	definition_source
+ERROR	multiple_labels	IAO:0000119	rdfs:label	????
+ERROR	multiple_labels	IAO:0000119	rdfs:label	????@zh
+ERROR	multiple_labels	IAO:0000232	rdfs:label	curator note@en
+ERROR	multiple_labels	IAO:0000232	rdfs:label	curator notes
+ERROR	multiple_labels	MFOEM:000046	rdfs:label	Euphorie@de
+ERROR	multiple_labels	MFOEM:000046	rdfs:label	euphoria
+ERROR	multiple_labels	MFOEM:000046	rdfs:label	l'euphorie@fr
+ERROR	multiple_labels	ONTONEO:10000001	rdfs:label	traduzido por@pt
+ERROR	multiple_labels	ONTONEO:10000001	rdfs:label	translated by@en
+ERROR	multiple_labels	ONTONEO:10000002	rdfs:label	traduzido para o português por@pt
+ERROR	multiple_labels	ONTONEO:10000002	rdfs:label	translated to Portuguese by@en
+ERROR	multiple_labels	RO:0002161	rdfs:label	never in taxon
+ERROR	multiple_labels	RO:0002161	rdfs:label	never_in_taxon
+ERROR	multiple_labels	RO:0002175	rdfs:label	present in taxon
+ERROR	multiple_labels	RO:0002175	rdfs:label	present_in_taxon
+ERROR	multiple_labels	dc11:creator	rdfs:label	Creator@en-us
+ERROR	multiple_labels	dc11:creator	rdfs:label	dc:creator
+ERROR	multiple_labels	dc11:description	rdfs:label	Description
+ERROR	multiple_labels	dc11:description	rdfs:label	Description@en-us
+ERROR	multiple_labels	dc11:description	rdfs:label	description
+ERROR	multiple_labels	dc11:source	rdfs:label	Source
+ERROR	multiple_labels	dc11:source	rdfs:label	Source@en-us
+ERROR	multiple_labels	oboInOwl:hasBroadSynonym	rdfs:label	has broad synonym@en
+ERROR	multiple_labels	oboInOwl:hasBroadSynonym	rdfs:label	has_broad_synonym
+ERROR	multiple_labels	oboInOwl:hasDbXref	rdfs:label	database cross reference
+ERROR	multiple_labels	oboInOwl:hasDbXref	rdfs:label	database cross reference@en
+ERROR	multiple_labels	oboInOwl:hasDbXref	rdfs:label	database_cross_reference
+ERROR	multiple_labels	oboInOwl:hasDbXref	rdfs:label	database_cross_reference@en
+ERROR	multiple_labels	oboInOwl:hasDbXref	rdfs:label	has database cross reference@en
+ERROR	multiple_labels	oboInOwl:hasDbXref	rdfs:label	xRef
+ERROR	multiple_labels	oboInOwl:hasDbXref	rdfs:label	???_??_??
+ERROR	multiple_labels	oboInOwl:hasDbXref	rdfs:label	???_??_??@zh
+ERROR	multiple_labels	oboInOwl:hasExactSynonym	rdfs:label	has exact synonym
+ERROR	multiple_labels	oboInOwl:hasExactSynonym	rdfs:label	hasExactSynonym
+ERROR	multiple_labels	oboInOwl:hasExactSynonym	rdfs:label	has_exact_synonym
+ERROR	multiple_labels	oboInOwl:hasNarrowSynonym	rdfs:label	has narrow synonym@en
+ERROR	multiple_labels	oboInOwl:hasNarrowSynonym	rdfs:label	has_narrow_synonym
+ERROR	multiple_labels	oboInOwl:hasOBONamespace	rdfs:label	has_obo_namespace
+ERROR	multiple_labels	oboInOwl:hasOBONamespace	rdfs:label	has_obo_namespace@en
+ERROR	multiple_labels	oboInOwl:hasOBONamespace	rdfs:label	?_obo_????
+ERROR	multiple_labels	oboInOwl:hasOBONamespace	rdfs:label	?_obo_????@zh
+ERROR	multiple_labels	oboInOwl:hasRelatedSynonym	rdfs:label	has related synonym@en
+ERROR	multiple_labels	oboInOwl:hasRelatedSynonym	rdfs:label	has_related_synonym
+ERROR	multiple_labels	oboInOwl:inSubset	rdfs:label	in subset
+ERROR	multiple_labels	oboInOwl:inSubset	rdfs:label	in_subset
+ERROR	multiple_labels	oboInOwl:shorthand	rdfs:label	shorthand
+ERROR	multiple_labels	oboInOwl:shorthand	rdfs:label	shorthand@en
+ERROR	multiple_definitions	IAO:0000111	IAO:0000115	The concise, meaningful, and human-friendly name for a class or property preferred by the ontology developers. (US-English)@en
+ERROR	multiple_definitions	IAO:0000111	IAO:0000115	?????????????????????????????????? ??????@zh
 ERROR	multiple_definitions	IAO:0000112	IAO:0000115	A phrase describing how a class name should be used. May also include other kinds of examples that facilitate immediate understanding of a class semantics, such as widely known prototypical subclasses or instances of the class. Although essential for high level terms, examples for low level terms (e.g., Affymetrix HU133 array) are not@en
 ERROR	multiple_definitions	IAO:0000112	IAO:0000115	A phrase describing how a term should be used and/or a citation to a work which uses it. May also include other kinds of examples that facilitate immediate understanding, such as widely know prototypes or instances of a class, or cases where a relation is said to hold.@en
 ERROR	multiple_definitions	IAO:0000115	IAO:0000115	A property representing the English language definitions of what NCI means by the concept. They may also include information about the definition's source and attribution in a form that can easily be interpreted by software.
 ERROR	multiple_definitions	IAO:0000115	IAO:0000115	English language definitions of what NCI means by the concept. These are limited to 1024 characters. They may also include information about the definition's source and attribution in a form that can easily be interpreted by software.
+ERROR	multiple_definitions	IAO:0000115	IAO:0000115	OBI???????????????????????????????????? ?????????????@zh
 ERROR	multiple_definitions	IAO:0000115	IAO:0000115	The official OBI definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions.@en
 ERROR	multiple_definitions	IAO:0000115	IAO:0000115	The official definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions.
 ERROR	multiple_definitions	IAO:0000115	IAO:0000115	The official definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions.@en
 ERROR	multiple_definitions	IAO:0000115	IAO:0000115	The official definition.
+ERROR	multiple_definitions	IAO:0000115	IAO:0000115	???????????????????????????????????? ?????????????@zh
+ERROR	multiple_definitions	IAO:0000116	IAO:0000115	An administrative note intended for its editor. It may not be included in the publication version of the ontology, so it should contain nothing necessary for end users to understand the ontology.@en
+ERROR	multiple_definitions	IAO:0000116	IAO:0000115	??????????????????????????????????????????????????@zh
 ERROR	multiple_definitions	IAO:0000117	IAO:0000115	Name of editor entering the definition in the file. The definition editor is a point of contact for information regarding the term. The definition editor may be, but is not always, the author of the definition, which may have been worked upon by several people@en
 ERROR	multiple_definitions	IAO:0000117	IAO:0000115	Name of editor entering the term in the file. The term editor is a point of contact for information regarding the term. The term editor may be, but is not always, the author of the definition, which may have been worked upon by several people@en
+ERROR	multiple_definitions	IAO:0000117	IAO:0000115	??????????????????????????????????????????????????????????????@zh
+ERROR	multiple_definitions	IAO:0000118	IAO:0000115	An alternative name for a class or property which means the same thing as the preferred name (semantically equivalent)@en
+ERROR	multiple_definitions	IAO:0000118	IAO:0000115	??????????????????????????????????@zh
 ERROR	multiple_definitions	IAO:0000119	IAO:0000115	Formal citation, e.g. identifier in external database to indicate / attribute source(s) for the definition. Free text indicate / attribute source(s) for the definition. EXAMPLE: Author Name, URI, MeSH Term C04, PUBMED ID, Wiki uri on 31.01.2007@en
 ERROR	multiple_definitions	IAO:0000119	IAO:0000115	formal citation, e.g. identifier in external database to indicate / attribute source(s) for the definition. Free text indicate / attribute source(s) for the definition. EXAMPLE: Author Name, URI, MeSH Term C04, PUBMED ID, Wiki uri on 31.01.2007@en
+ERROR	multiple_definitions	IAO:0000119	IAO:0000115	???????????????????????/???????S????????/???????S??????2007?1?31???????URI?MeSH??C04?PUBMEDID???uri@zh
+ERROR	multiple_definitions	NCIT:P106	IAO:0000115	A property that represents a description of the sort of thing or category to which a concept belongs in the context of the UMLS semantic network.
+ERROR	multiple_definitions	NCIT:P106	IAO:0000115	The semantic type describes the sort of thing or category to which a concept belongs in the context of the UMLS semantic network.
+ERROR	multiple_definitions	NCIT:P107	IAO:0000115	A property representing an alternative Preferred Name for use in some NCI systems.
+ERROR	multiple_definitions	NCIT:P107	IAO:0000115	Provides an alternative Preferred Name for use in some NCI systems.
+ERROR	multiple_definitions	NCIT:P108	IAO:0000115	A property representing the word or phrase that NCI uses by preference to refer to the concept.
+ERROR	multiple_definitions	NCIT:P108	IAO:0000115	The word or phrase that NCI uses by preference to refer to the concept.
+ERROR	multiple_definitions	NCIT:P98	IAO:0000115	A property representing notations made by NCI vocabulary curators. They are intended to provide supplemental, unstructured information to the user or additional insight about the concept.
+ERROR	multiple_definitions	NCIT:P98	IAO:0000115	Design notes are notations made by NCI vocabulary curators. They are intended to provide supplemental, unstructured information to the user or additional insight about the concept.
 ERROR	multiple_definitions	OGMS:0000083	IAO:0000115	TODO: Define.@en
 ERROR	multiple_definitions	OGMS:0000083	IAO:0000115	The result of an evaluation of the body and its functions using visual inspection, palpation, percussion, or auscultation that is performed to determine the presence, absence, or degree of a condition
 ERROR	multiple_definitions	OGMS:0000098	IAO:0000115	TODO@en
@@ -38,63 +149,14 @@ ERROR	multiple_definitions	oboInOwl:id	IAO:0000115	An identifier for an individu
 ERROR	multiple_definitions	oboInOwl:id	IAO:0000115	An identifier is an information content entity that is the outcome of a dubbing process and is used to refer to one instance of entity shared by a group of people to refer to that individual entity.
 ERROR	multiple_definitions	oboInOwl:inSubset	IAO:0000115	An association that connects the concept defining a particular terminology subset with concepts that belong to this subset.
 ERROR	multiple_definitions	oboInOwl:inSubset	IAO:0000115	In subset.
-ERROR	multiple_labels	HP:0000741	rdfs:label	Apathy
-ERROR	multiple_labels	HP:0000741	rdfs:label	apathy
-ERROR	multiple_labels	IAO:0000111	rdfs:label	editor preferred label
-ERROR	multiple_labels	IAO:0000111	rdfs:label	editor preferred label@en
-ERROR	multiple_labels	IAO:0000111	rdfs:label	editor preferred term
-ERROR	multiple_labels	IAO:0000111	rdfs:label	editor preferred term@en
-ERROR	multiple_labels	IAO:0000111	rdfs:label	editor preferred term~editor preferred label
-ERROR	multiple_labels	IAO:0000112	rdfs:label	example of usage
-ERROR	multiple_labels	IAO:0000112	rdfs:label	example of usage@en
-ERROR	multiple_labels	IAO:0000114	rdfs:label	has curation status
-ERROR	multiple_labels	IAO:0000114	rdfs:label	has curation status@en
-ERROR	multiple_labels	IAO:0000115	rdfs:label	definition
-ERROR	multiple_labels	IAO:0000115	rdfs:label	definition@en
-ERROR	multiple_labels	IAO:0000115	rdfs:label	textual definition
-ERROR	multiple_labels	IAO:0000115	rdfs:label	textual definition@en
-ERROR	multiple_labels	IAO:0000116	rdfs:label	editor note
-ERROR	multiple_labels	IAO:0000116	rdfs:label	editor note@en
-ERROR	multiple_labels	IAO:0000117	rdfs:label	definition editor
-ERROR	multiple_labels	IAO:0000117	rdfs:label	definition editor@en
-ERROR	multiple_labels	IAO:0000117	rdfs:label	term editor
-ERROR	multiple_labels	IAO:0000117	rdfs:label	term editor@en
-ERROR	multiple_labels	IAO:0000118	rdfs:label	alternative term
-ERROR	multiple_labels	IAO:0000118	rdfs:label	alternative term@en
-ERROR	multiple_labels	IAO:0000119	rdfs:label	definition source
-ERROR	multiple_labels	IAO:0000119	rdfs:label	definition source@en
-ERROR	multiple_labels	IAO:0000232	rdfs:label	curator note@en
-ERROR	multiple_labels	IAO:0000232	rdfs:label	curator notes
-ERROR	multiple_labels	MFOEM:000046	rdfs:label	Euphorie@de
-ERROR	multiple_labels	MFOEM:000046	rdfs:label	euphoria
-ERROR	multiple_labels	MFOEM:000046	rdfs:label	l'euphorie@fr
-ERROR	multiple_labels	ONTONEO:10000001	rdfs:label	traduzido por@pt
-ERROR	multiple_labels	ONTONEO:10000001	rdfs:label	translated by@en
-ERROR	multiple_labels	ONTONEO:10000002	rdfs:label	traduzido para o português por@pt
-ERROR	multiple_labels	ONTONEO:10000002	rdfs:label	translated to Portuguese by@en
-ERROR	multiple_labels	RO:0002161	rdfs:label	never in taxon
-ERROR	multiple_labels	RO:0002161	rdfs:label	never_in_taxon
-ERROR	multiple_labels	RO:0002175	rdfs:label	present in taxon
-ERROR	multiple_labels	RO:0002175	rdfs:label	present_in_taxon
-ERROR	multiple_labels	dc11:description	rdfs:label	Description
-ERROR	multiple_labels	dc11:description	rdfs:label	Description@en-us
-ERROR	multiple_labels	dc11:source	rdfs:label	Source
-ERROR	multiple_labels	dc11:source	rdfs:label	Source@en-us
-ERROR	multiple_labels	oboInOwl:hasBroadSynonym	rdfs:label	has broad synonym@en
-ERROR	multiple_labels	oboInOwl:hasBroadSynonym	rdfs:label	has_broad_synonym
-ERROR	multiple_labels	oboInOwl:hasDbXref	rdfs:label	database cross reference
-ERROR	multiple_labels	oboInOwl:hasDbXref	rdfs:label	database_cross_reference
-ERROR	multiple_labels	oboInOwl:hasDbXref	rdfs:label	has database cross reference@en
-ERROR	multiple_labels	oboInOwl:hasDbXref	rdfs:label	xRef
-ERROR	multiple_labels	oboInOwl:hasExactSynonym	rdfs:label	has exact synonym
-ERROR	multiple_labels	oboInOwl:hasExactSynonym	rdfs:label	hasExactSynonym
-ERROR	multiple_labels	oboInOwl:hasExactSynonym	rdfs:label	has_exact_synonym
-ERROR	multiple_labels	oboInOwl:hasNarrowSynonym	rdfs:label	has narrow synonym@en
-ERROR	multiple_labels	oboInOwl:hasNarrowSynonym	rdfs:label	has_narrow_synonym
-ERROR	multiple_labels	oboInOwl:hasRelatedSynonym	rdfs:label	has related synonym@en
-ERROR	multiple_labels	oboInOwl:hasRelatedSynonym	rdfs:label	has_related_synonym
-ERROR	multiple_labels	oboInOwl:inSubset	rdfs:label	in subset
-ERROR	multiple_labels	oboInOwl:inSubset	rdfs:label	in_subset
+WARN	duplicate_exact_synonym	NCIT:C16866	oboInOwl:hasExactSynonym	Model System
+WARN	duplicate_exact_synonym	NCIT:C80519	oboInOwl:hasExactSynonym	Model System
+WARN	duplicate_exact_synonym	NCIT:C16866	oboInOwl:hasExactSynonym	Model
+WARN	duplicate_exact_synonym	NCIT:C80519	oboInOwl:hasExactSynonym	Model
+WARN	duplicate_exact_synonym	NCIT:C17204	oboInOwl:hasExactSynonym	CT
+WARN	duplicate_exact_synonym	NCIT:C64345	oboInOwl:hasExactSynonym	CT
+WARN	duplicate_exact_synonym	GO:0007610	oboInOwl:hasExactSynonym	behaviour
+WARN	duplicate_exact_synonym	NBO:0000313	oboInOwl:hasExactSynonym	behaviour
 WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C100110	rdfs:subPropertyOf	
 WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C100129	rdfs:subPropertyOf	
 WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C101858	rdfs:subPropertyOf	
@@ -240,413 +302,6 @@ WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/uberon/
 WARN	missing_subset_declaration	http://purl.oboInOwllibrary.org/oboInOwl/ubprop#_upper_level	rdfs:subPropertyOf	
 WARN	missing_subset_declaration	blank node	rdfs:subPropertyOf	
 WARN	missing_subset_declaration	blank node	rdfs:subPropertyOf	
-WARN	duplicate_scoped_synonym	NCBITaxon:2759	oboInOwl:hasExactSynonym	eukaryotes
-WARN	duplicate_scoped_synonym	NCBITaxon:2759	oboInOwl:hasRelatedSynonym	eukaryotes
-WARN	duplicate_scoped_synonym	NCBITaxon:40674	oboInOwl:hasExactSynonym	mammals
-WARN	duplicate_scoped_synonym	NCBITaxon:40674	oboInOwl:hasRelatedSynonym	mammals
-WARN	duplicate_scoped_synonym	NCBITaxon:6231	oboInOwl:hasExactSynonym	nematodes
-WARN	duplicate_scoped_synonym	NCBITaxon:6231	oboInOwl:hasRelatedSynonym	nematodes
-WARN	duplicate_scoped_synonym	NCBITaxon:6656	oboInOwl:hasExactSynonym	arthropods
-WARN	duplicate_scoped_synonym	NCBITaxon:6656	oboInOwl:hasRelatedSynonym	arthropods
-WARN	duplicate_scoped_synonym	NCBITaxon:7742	oboInOwl:hasExactSynonym	vertebrates
-WARN	duplicate_scoped_synonym	NCBITaxon:7742	oboInOwl:hasRelatedSynonym	vertebrates
-WARN	duplicate_scoped_synonym	NCIT:C74611	oboInOwl:hasExactSynonym	erythrocyte sedimentation rate
-WARN	duplicate_scoped_synonym	NCIT:C74611	oboInOwl:hasRelatedSynonym	erythrocyte sedimentation rate
-WARN	duplicate_scoped_synonym	UBERON:0001018	oboInOwl:hasNarrowSynonym	nerve tract
-WARN	duplicate_scoped_synonym	UBERON:0001018	oboInOwl:hasRelatedSynonym	nerve tract
-WARN	duplicate_scoped_synonym	UBERON:0002769	oboInOwl:hasExactSynonym	gyrus temporalis superior
-WARN	duplicate_scoped_synonym	UBERON:0002769	oboInOwl:hasRelatedSynonym	gyrus temporalis superior
-WARN	duplicate_scoped_synonym	UBERON:0006101	oboInOwl:hasBroadSynonym	B09-24
-WARN	duplicate_scoped_synonym	UBERON:0006101	oboInOwl:hasExactSynonym	B09-24
-WARN	duplicate_scoped_synonym	UBERON:0006473	oboInOwl:hasBroadSynonym	B09-18
-WARN	duplicate_scoped_synonym	UBERON:0006473	oboInOwl:hasExactSynonym	B09-18
-WARN	duplicate_scoped_synonym	UBERON:0006481	oboInOwl:hasBroadSynonym	B09-44
-WARN	duplicate_scoped_synonym	UBERON:0006481	oboInOwl:hasExactSynonym	B09-44
-WARN	duplicate_scoped_synonym	UBERON:0006483	oboInOwl:hasBroadSynonym	B09-46
-WARN	duplicate_scoped_synonym	UBERON:0006483	oboInOwl:hasExactSynonym	B09-46
-WARN	duplicate_scoped_synonym	UBERON:0006483	oboInOwl:hasExactSynonym	middle frontal area 46
-WARN	duplicate_scoped_synonym	UBERON:0006483	oboInOwl:hasRelatedSynonym	middle frontal area 46
-WARN	duplicate_scoped_synonym	UBERON:0006484	oboInOwl:hasBroadSynonym	B09-47
-WARN	duplicate_scoped_synonym	UBERON:0006484	oboInOwl:hasExactSynonym	B09-47
-WARN	duplicate_scoped_synonym	UBERON:0009835	oboInOwl:hasExactSynonym	ACC
-WARN	duplicate_scoped_synonym	UBERON:0009835	oboInOwl:hasRelatedSynonym	ACC
-WARN	duplicate_scoped_synonym	UBERON:0011627	oboInOwl:hasExactSynonym	pars orbitalis
-WARN	duplicate_scoped_synonym	UBERON:0011627	oboInOwl:hasRelatedSynonym	pars orbitalis
-WARN	duplicate_scoped_synonym	UBERON:0013528	oboInOwl:hasBroadSynonym	B09-11
-WARN	duplicate_scoped_synonym	UBERON:0013528	oboInOwl:hasExactSynonym	B09-11
-WARN	duplicate_scoped_synonym	UBERON:0013528	oboInOwl:hasExactSynonym	area 11 of Brodmann
-WARN	duplicate_scoped_synonym	UBERON:0013528	oboInOwl:hasRelatedSynonym	area 11 of Brodmann
-WARN	duplicate_scoped_synonym	UBERON:0013539	oboInOwl:hasBroadSynonym	B09-8
-WARN	duplicate_scoped_synonym	UBERON:0013539	oboInOwl:hasExactSynonym	B09-8
-WARN	duplicate_scoped_synonym	UBERON:0013540	oboInOwl:hasBroadSynonym	B09-9
-WARN	duplicate_scoped_synonym	UBERON:0013540	oboInOwl:hasExactSynonym	B09-9
-WARN	duplicate_scoped_synonym	UBERON:0013541	oboInOwl:hasBroadSynonym	B09-10
-WARN	duplicate_scoped_synonym	UBERON:0013541	oboInOwl:hasExactSynonym	B09-10
-WARN	duplicate_scoped_synonym	UBERON:0013550	oboInOwl:hasBroadSynonym	B09-19
-WARN	duplicate_scoped_synonym	UBERON:0013550	oboInOwl:hasExactSynonym	B09-19
-WARN	duplicate_scoped_synonym	UBERON:0013556	oboInOwl:hasBroadSynonym	B09-25
-WARN	duplicate_scoped_synonym	UBERON:0013556	oboInOwl:hasExactSynonym	B09-25
-WARN	duplicate_scoped_synonym	UBERON:0013560	oboInOwl:hasBroadSynonym	B09-32
-WARN	duplicate_scoped_synonym	UBERON:0013560	oboInOwl:hasExactSynonym	B09-32
-WARN	duplicate_exact_synonym	NCIT:C16866	oboInOwl:hasExactSynonym	Model System
-WARN	duplicate_exact_synonym	NCIT:C80519	oboInOwl:hasExactSynonym	Model System
-WARN	duplicate_exact_synonym	NCIT:C16866	oboInOwl:hasExactSynonym	Model
-WARN	duplicate_exact_synonym	NCIT:C80519	oboInOwl:hasExactSynonym	Model
-WARN	duplicate_exact_synonym	NCIT:C17204	oboInOwl:hasExactSynonym	CT
-WARN	duplicate_exact_synonym	NCIT:C64345	oboInOwl:hasExactSynonym	CT
-WARN	duplicate_exact_synonym	GO:0007610	oboInOwl:hasExactSynonym	behaviour
-WARN	duplicate_exact_synonym	NBO:0000313	oboInOwl:hasExactSynonym	behaviour
-WARN	missing_definition	BFO:0000141	IAO:0000115	
-WARN	missing_definition	obo:BPDO_00000074	IAO:0000115	
-WARN	missing_definition	obo:BPDO_00000077	IAO:0000115	
-WARN	missing_definition	obo:BPDO_00000078	IAO:0000115	
-WARN	missing_definition	obo:BPDO_00000079	IAO:0000115	
-WARN	missing_definition	obo:BPDO_00000080	IAO:0000115	
-WARN	missing_definition	obo:BPDO_00000082	IAO:0000115	
-WARN	missing_definition	obo:BPDO_00000083	IAO:0000115	
-WARN	missing_definition	obo:BPDO_00000085	IAO:0000115	
-WARN	missing_definition	obo:BPDO_00000087	IAO:0000115	
-WARN	missing_definition	obo:BPDO_00000094	IAO:0000115	
-WARN	missing_definition	obo:BPDO_00000107	IAO:0000115	
-WARN	missing_definition	obo:BPDO_00000108	IAO:0000115	
-WARN	missing_definition	obo:BPDO_00000109	IAO:0000115	
-WARN	missing_definition	obo:BPDO_00000110	IAO:0000115	
-WARN	missing_definition	obo:BPDO_00000140	IAO:0000115	
-WARN	missing_definition	obo:BPDO_00000141	IAO:0000115	
-WARN	missing_definition	obo:BPDO_00000142	IAO:0000115	
-WARN	missing_definition	obo:BPDO_00000143	IAO:0000115	
-WARN	missing_definition	obo:BPDO_00000151	IAO:0000115	
-WARN	missing_definition	obo:BPDO_00000154	IAO:0000115	
-WARN	missing_definition	obo:BPDO_00000155	IAO:0000115	
-WARN	missing_definition	obo:BPDO_00000156	IAO:0000115	
-WARN	missing_definition	obo:BPDO_00000157	IAO:0000115	
-WARN	missing_definition	obo:BPDO_00000158	IAO:0000115	
-WARN	missing_definition	obo:BPDO_00000159	IAO:0000115	
-WARN	missing_definition	obo:BPDO_00000160	IAO:0000115	
-WARN	missing_definition	obo:BPDO_00000162	IAO:0000115	
-WARN	missing_definition	obo:BPDO_00000163	IAO:0000115	
-WARN	missing_definition	obo:BPDO_00000164	IAO:0000115	
-WARN	missing_definition	obo:BPDO_00000165	IAO:0000115	
-WARN	missing_definition	obo:BPDO_00000166	IAO:0000115	
-WARN	missing_definition	obo:BPDO_00000168	IAO:0000115	
-WARN	missing_definition	obo:BPDO_00000169	IAO:0000115	
-WARN	missing_definition	obo:BPDO_00000170	IAO:0000115	
-WARN	missing_definition	obo:BPDO_00000171	IAO:0000115	
-WARN	missing_definition	obo:BPDO_00000185	IAO:0000115	
-WARN	missing_definition	obo:BPDO_00000216	IAO:0000115	
-WARN	missing_definition	obo:BPDO_00000217	IAO:0000115	
-WARN	missing_definition	obo:BPDO_00000218	IAO:0000115	
-WARN	missing_definition	obo:BPDO_00000219	IAO:0000115	
-WARN	missing_definition	obo:BPDO_00000220	IAO:0000115	
-WARN	missing_definition	obo:BPDO_00000221	IAO:0000115	
-WARN	missing_definition	obo:BPDO_00000222	IAO:0000115	
-WARN	missing_definition	obo:BPDO_00000223	IAO:0000115	
-WARN	missing_definition	obo:BPDO_00000224	IAO:0000115	
-WARN	missing_definition	obo:BPDO_00000225	IAO:0000115	
-WARN	missing_definition	obo:BPDO_00000226	IAO:0000115	
-WARN	missing_definition	obo:BPDO_00000227	IAO:0000115	
-WARN	missing_definition	obo:BPDO_00000228	IAO:0000115	
-WARN	missing_definition	obo:BPDO_00000229	IAO:0000115	
-WARN	missing_definition	obo:BPDO_00000232	IAO:0000115	
-WARN	missing_definition	obo:BPDO_00000233	IAO:0000115	
-WARN	missing_definition	obo:BPDO_00000234	IAO:0000115	
-WARN	missing_definition	obo:BPDO_00000235	IAO:0000115	
-WARN	missing_definition	obo:BPDO_00000236	IAO:0000115	
-WARN	missing_definition	obo:BPDO_00000237	IAO:0000115	
-WARN	missing_definition	obo:BPDO_00000238	IAO:0000115	
-WARN	missing_definition	obo:BPDO_00000239	IAO:0000115	
-WARN	missing_definition	obo:BPDO_00000240	IAO:0000115	
-WARN	missing_definition	obo:BPDO_00000241	IAO:0000115	
-WARN	missing_definition	obo:BPDO_00000242	IAO:0000115	
-WARN	missing_definition	obo:BPDO_00000243	IAO:0000115	
-WARN	missing_definition	obo:BPDO_00000244	IAO:0000115	
-WARN	missing_definition	obo:BPDO_00000245	IAO:0000115	
-WARN	missing_definition	obo:BPDO_00000246	IAO:0000115	
-WARN	missing_definition	obo:BPDO_00000247	IAO:0000115	
-WARN	missing_definition	obo:BPDO_00000248	IAO:0000115	
-WARN	missing_definition	CMO:0000000	IAO:0000115	
-WARN	missing_definition	CMO:0000023	IAO:0000115	
-WARN	missing_definition	CMO:0000035	IAO:0000115	
-WARN	missing_definition	CMO:0000036	IAO:0000115	
-WARN	missing_definition	CMO:0000046	IAO:0000115	
-WARN	missing_definition	CMO:0000050	IAO:0000115	
-WARN	missing_definition	CMO:0000051	IAO:0000115	
-WARN	missing_definition	CMO:0000052	IAO:0000115	
-WARN	missing_definition	CMO:0000053	IAO:0000115	
-WARN	missing_definition	CMO:0000118	IAO:0000115	
-WARN	missing_definition	CMO:0000119	IAO:0000115	
-WARN	missing_definition	CMO:0000286	IAO:0000115	
-WARN	missing_definition	CMO:0000294	IAO:0000115	
-WARN	missing_definition	CMO:0000360	IAO:0000115	
-WARN	missing_definition	CMO:0000364	IAO:0000115	
-WARN	missing_definition	CMO:0000490	IAO:0000115	
-WARN	missing_definition	CMO:0000503	IAO:0000115	
-WARN	missing_definition	CMO:0000515	IAO:0000115	
-WARN	missing_definition	CMO:0000545	IAO:0000115	
-WARN	missing_definition	CMO:0001003	IAO:0000115	
-WARN	missing_definition	CMO:0001247	IAO:0000115	
-WARN	missing_definition	CMO:0001822	IAO:0000115	
-WARN	missing_definition	CMO:0001824	IAO:0000115	
-WARN	missing_definition	CMO:0002048	IAO:0000115	
-WARN	missing_definition	CMO:0002049	IAO:0000115	
-WARN	missing_definition	CMO:0002280	IAO:0000115	
-WARN	missing_definition	CMO:0002281	IAO:0000115	
-WARN	missing_definition	CMO:0002570	IAO:0000115	
-WARN	missing_definition	CMO:0002786	IAO:0000115	
-WARN	missing_definition	IAO:0000114	IAO:0000115	
-WARN	missing_definition	IAO:0000425	IAO:0000115	
-WARN	missing_definition	IAO:0000600	IAO:0000115	
-WARN	missing_definition	IAO:0000601	IAO:0000115	
-WARN	missing_definition	IAO:0000602	IAO:0000115	
-WARN	missing_definition	MFOEM:000010	IAO:0000115	
-WARN	missing_definition	MFOEM:000165	IAO:0000115	
-WARN	missing_definition	MFOMD:0000037	IAO:0000115	
-WARN	missing_definition	MFOMD:0000069	IAO:0000115	
-WARN	missing_definition	NCBITaxon:7227	IAO:0000115	
-WARN	missing_definition	NCIT:C17456	IAO:0000115	
-WARN	missing_definition	NCIT:C39011	IAO:0000115	
-WARN	missing_definition	NCIT:C39194	IAO:0000115	
-WARN	missing_definition	NCIT:C63479	IAO:0000115	
-WARN	missing_definition	OAE:0004334	IAO:0000115	
-WARN	missing_definition	SYMP:0000387	IAO:0000115	
-WARN	missing_definition	SYMP:0000410	IAO:0000115	
-WARN	missing_definition	SYMP:0000459	IAO:0000115	
-WARN	missing_definition	SYMP:0000461	IAO:0000115	
-WARN	missing_definition	SYMP:0000473	IAO:0000115	
-WARN	missing_definition	SYMP:0000480	IAO:0000115	
-WARN	missing_definition	SYMP:0000567	IAO:0000115	
-WARN	missing_definition	SYMP:0019139	IAO:0000115	
-WARN	missing_definition	UBERON:0005913	IAO:0000115	
-WARN	missing_definition	UBERON:0034944	IAO:0000115	
-WARN	missing_definition	obo:UBPROP_0000007	IAO:0000115	
-WARN	missing_definition	obo:UBPROP_0000201	IAO:0000115	
-WARN	missing_definition	obo:UBPROP_0000202	IAO:0000115	
-WARN	missing_definition	obo:mondo#excluded_subClassOf	IAO:0000115	
-WARN	missing_definition	dc11:contributor	IAO:0000115	
-WARN	missing_definition	dc11:description	IAO:0000115	
-WARN	missing_definition	dc11:source	IAO:0000115	
-WARN	missing_definition	dc:contributor	IAO:0000115	
-WARN	missing_definition	dc:license	IAO:0000115	
-WARN	missing_definition	dc:title	IAO:0000115	
-WARN	missing_definition	oboInOwl:hasBroadSynonym	IAO:0000115	
-WARN	missing_definition	oboInOwl:hasNarrowSynonym	IAO:0000115	
-WARN	missing_definition	oboInOwl:shorthand	IAO:0000115	
-WARN	missing_definition	foaf:depicted_by	IAO:0000115	
-WARN	missing_definition	https://www.wikidata.org/wiki/Property:P1659	IAO:0000115	
-WARN	missing_definition	https://www.wikidata.org/wiki/Property:P486	IAO:0000115	
-WARN	duplicate_label_synonym	obo:BPDO_00000068	oboInOwl:hasExactSynonym	bipolar affective disorder, current episode depression
-WARN	duplicate_label_synonym	obo:BPDO_00000072	oboInOwl:hasExactSynonym	bipolar affective disorder, current episode manic
-WARN	duplicate_label_synonym	obo:BPDO_00000190	oboInOwl:hasExactSynonym	perinatal risk factor
-WARN	duplicate_label_synonym	obo:BPDO_00000196	oboInOwl:hasExactSynonym	prenatal risk factor
-WARN	duplicate_label_synonym	GO:0007610	oboInOwl:hasExactSynonym	behavior
-WARN	duplicate_label_synonym	HP:0000152	oboInOwl:hasExactSynonym	Abnormality of head or neck
-WARN	duplicate_label_synonym	HP:0000707	oboInOwl:hasExactSynonym	Abnormality of the nervous system
-WARN	duplicate_label_synonym	HP:0000736	oboInOwl:hasExactSynonym	Short attention span
-WARN	duplicate_label_synonym	HP:0000748	oboInOwl:hasExactSynonym	Inappropriate laughter
-WARN	duplicate_label_synonym	HP:0000924	oboInOwl:hasExactSynonym	Abnormality of the skeletal system
-WARN	duplicate_label_synonym	HP:0001197	oboInOwl:hasExactSynonym	Abnormality of prenatal development or birth
-WARN	duplicate_label_synonym	HP:0001507	oboInOwl:hasExactSynonym	Growth abnormality
-WARN	duplicate_label_synonym	HP:0001518	oboInOwl:hasExactSynonym	Small for gestational age
-WARN	duplicate_label_synonym	HP:0001622	oboInOwl:hasExactSynonym	Premature birth
-WARN	duplicate_label_synonym	HP:0002715	oboInOwl:hasExactSynonym	Abnormality of the immune system
-WARN	duplicate_label_synonym	HP:0004395	oboInOwl:hasExactSynonym	Malnutrition
-WARN	duplicate_label_synonym	HP:0012639	oboInOwl:hasExactSynonym	Abnormal nervous system morphology
-WARN	duplicate_label_synonym	HP:0030215	oboInOwl:hasExactSynonym	Inappropriate crying
-WARN	duplicate_label_synonym	HP:0040195	oboInOwl:hasExactSynonym	Decreased head circumference
-WARN	duplicate_label_synonym	HP:0100543	oboInOwl:hasExactSynonym	Cognitive impairment
-WARN	duplicate_label_synonym	HP:0100716	oboInOwl:hasExactSynonym	Self-injurious behavior
-WARN	duplicate_label_synonym	MONDO:0004955	oboInOwl:hasExactSynonym	metabolic syndrome
-WARN	duplicate_label_synonym	MONDO:0005582	oboInOwl:hasExactSynonym	binge eating disorder
-WARN	duplicate_label_synonym	MONDO:0007440	oboInOwl:hasExactSynonym	major affective disorder 1
-WARN	duplicate_label_synonym	MONDO:0010096	oboInOwl:hasExactSynonym	tardive dyskinesia
-WARN	duplicate_label_synonym	MONDO:0010648	oboInOwl:hasExactSynonym	major affective disorder 2
-WARN	duplicate_label_synonym	MONDO:0012319	oboInOwl:hasExactSynonym	major affective disorder 3
-WARN	duplicate_label_synonym	MONDO:0012642	oboInOwl:hasExactSynonym	major affective disorder 4
-WARN	duplicate_label_synonym	MONDO:0012685	oboInOwl:hasExactSynonym	major affective disorder 5
-WARN	duplicate_label_synonym	MONDO:0012686	oboInOwl:hasExactSynonym	major affective disorder 6
-WARN	duplicate_label_synonym	MONDO:0012877	oboInOwl:hasExactSynonym	major affective disorder 8
-WARN	duplicate_label_synonym	MONDO:0012881	oboInOwl:hasExactSynonym	major affective disorder 7
-WARN	duplicate_label_synonym	MONDO:0012882	oboInOwl:hasExactSynonym	major affective disorder 9
-WARN	duplicate_label_synonym	MONDO:0013696	oboInOwl:hasExactSynonym	chromosome 2P16.3 deletion syndrome
-WARN	duplicate_label_synonym	MONDO:0021681	oboInOwl:hasExactSynonym	sexually transmitted disease
-WARN	duplicate_label_synonym	MONDO:0024612	oboInOwl:hasExactSynonym	manic bipolar affective disorder
-WARN	duplicate_label_synonym	MONDO:0024613	oboInOwl:hasExactSynonym	bipolar depression
-WARN	duplicate_label_synonym	NCIT:A24	oboInOwl:hasExactSynonym	Is_PCDC_AML_Permissible_Value_For_Variable
-WARN	duplicate_label_synonym	NCIT:A28	oboInOwl:hasExactSynonym	Is_PCDC_EWS_Permissible_Value_For_Variable
-WARN	duplicate_label_synonym	NCIT:A31	oboInOwl:hasExactSynonym	Has_GDC_Value
-WARN	duplicate_label_synonym	NCIT:A32	oboInOwl:hasExactSynonym	Is_Value_For_GDC_Property
-WARN	duplicate_label_synonym	NCIT:A33	oboInOwl:hasExactSynonym	Is_PCDC_GCT_Permissible_Value_For_Variable
-WARN	duplicate_label_synonym	NCIT:A35	oboInOwl:hasExactSynonym	Is_PCDC_ALL_Permissible_Value_For_Variable
-WARN	duplicate_label_synonym	NCIT:A37	oboInOwl:hasExactSynonym	Has_SeroNet_Permissible_Value
-WARN	duplicate_label_synonym	NCIT:C100763	oboInOwl:hasExactSynonym	Clinical Global Impression Original Version Questionnaire
-WARN	duplicate_label_synonym	NCIT:C100767	oboInOwl:hasExactSynonym	Hamilton Depression Rating Scale 17 Item Clinical Classification
-WARN	duplicate_label_synonym	NCIT:C100955	oboInOwl:hasExactSynonym	CGI - Severity of Illness
-WARN	duplicate_label_synonym	NCIT:C102119	oboInOwl:hasExactSynonym	Hamilton Depression Rating Scale 21-Item Clinical Classification
-WARN	duplicate_label_synonym	NCIT:C102124	oboInOwl:hasExactSynonym	Young Mania Rating Scale Questionnaire
-WARN	duplicate_label_synonym	NCIT:C103526	oboInOwl:hasExactSynonym	Patient Health Questionnaire - 9 Item
-WARN	duplicate_label_synonym	NCIT:C113609	oboInOwl:hasExactSynonym	Chronic Liver Disease
-WARN	duplicate_label_synonym	NCIT:C114097	oboInOwl:hasExactSynonym	Post Term Birth
-WARN	duplicate_label_synonym	NCIT:C114141	oboInOwl:hasExactSynonym	Elective Cesarean Delivery
-WARN	duplicate_label_synonym	NCIT:C114371	oboInOwl:hasExactSynonym	Antepartum Hemorrhage
-WARN	duplicate_label_synonym	NCIT:C116532	oboInOwl:hasExactSynonym	Computer-Assisted Cognitive Training
-WARN	duplicate_label_synonym	NCIT:C116655	oboInOwl:hasExactSynonym	Transcranial Magnetic Stimulation
-WARN	duplicate_label_synonym	NCIT:C117015	oboInOwl:hasExactSynonym	Chronic Migraine
-WARN	duplicate_label_synonym	NCIT:C117194	oboInOwl:hasExactSynonym	Psychomotor Retardation
-WARN	duplicate_label_synonym	NCIT:C118254	oboInOwl:hasExactSynonym	Inactivity
-WARN	duplicate_label_synonym	NCIT:C120257	oboInOwl:hasExactSynonym	California Verbal Learning Test - Second Edition
-WARN	duplicate_label_synonym	NCIT:C120258	oboInOwl:hasExactSynonym	Wechsler Memory Scale - Fourth Edition
-WARN	duplicate_label_synonym	NCIT:C121284	oboInOwl:hasExactSynonym	Sensation Seeking Scale
-WARN	duplicate_label_synonym	NCIT:C121351	oboInOwl:hasExactSynonym	Occupational Therapy
-WARN	duplicate_label_synonym	NCIT:C122382	oboInOwl:hasExactSynonym	Montgomery-Asberg Depression Rating Scale Questionnaire
-WARN	duplicate_label_synonym	NCIT:C126879	oboInOwl:hasExactSynonym	Psychosocial Assessment
-WARN	duplicate_label_synonym	NCIT:C129326	oboInOwl:hasExactSynonym	Resting State Functional Connectivity Magnetic Resonance Imaging
-WARN	duplicate_label_synonym	NCIT:C130315	oboInOwl:hasExactSynonym	Inventory of Depressive Symptomatology Self-Report Version Questionnaire
-WARN	duplicate_label_synonym	NCIT:C130319	oboInOwl:hasExactSynonym	World Health Organization Disability Assessment Schedule 2.0 36-item Version Interviewer-administered Questionnaire
-WARN	duplicate_label_synonym	NCIT:C131530	oboInOwl:hasExactSynonym	AX-Continuous Performance Test
-WARN	duplicate_label_synonym	NCIT:C139923	oboInOwl:hasExactSynonym	Breath Carbon Monoxide Monitor
-WARN	duplicate_label_synonym	NCIT:C15308	oboInOwl:hasExactSynonym	Psychotherapy
-WARN	duplicate_label_synonym	NCIT:C15315	oboInOwl:hasExactSynonym	Rehabilitation
-WARN	duplicate_label_synonym	NCIT:C15423	oboInOwl:hasExactSynonym	Psychosocial Rehabilitation
-WARN	duplicate_label_synonym	NCIT:C15447	oboInOwl:hasExactSynonym	Dietary Intervention
-WARN	duplicate_label_synonym	NCIT:C15675	oboInOwl:hasExactSynonym	Adjuvant Therapy
-WARN	duplicate_label_synonym	NCIT:C15710	oboInOwl:hasExactSynonym	Nicotine Replacement
-WARN	duplicate_label_synonym	NCIT:C15747	oboInOwl:hasExactSynonym	Supportive Care
-WARN	duplicate_label_synonym	NCIT:C15900	oboInOwl:hasExactSynonym	Lifestyle Therapy
-WARN	duplicate_label_synonym	NCIT:C15986	oboInOwl:hasExactSynonym	Pharmacotherapy
-WARN	duplicate_label_synonym	NCIT:C160587	oboInOwl:hasExactSynonym	Executive Function Disorder
-WARN	duplicate_label_synonym	NCIT:C16358	oboInOwl:hasExactSynonym	Body Mass Index
-WARN	duplicate_label_synonym	NCIT:C16424	oboInOwl:hasExactSynonym	Childhood Abuse and Neglect
-WARN	duplicate_label_synonym	NCIT:C165543	oboInOwl:hasExactSynonym	Neuropsychological Assessment
-WARN	duplicate_label_synonym	NCIT:C16567	oboInOwl:hasExactSynonym	Exercise
-WARN	duplicate_label_synonym	NCIT:C16768	oboInOwl:hasExactSynonym	Karyotyping
-WARN	duplicate_label_synonym	NCIT:C16809	oboInOwl:hasExactSynonym	Magnetic Resonance Imaging
-WARN	duplicate_label_synonym	NCIT:C16810	oboInOwl:hasExactSynonym	Magnetic Resonance Spectroscopy
-WARN	duplicate_label_synonym	NCIT:C16811	oboInOwl:hasExactSynonym	Magnetoencephalography
-WARN	duplicate_label_synonym	NCIT:C168186	oboInOwl:hasExactSynonym	Electrocardiogram
-WARN	duplicate_label_synonym	NCIT:C16847	oboInOwl:hasExactSynonym	Technique
-WARN	duplicate_label_synonym	NCIT:C16866	oboInOwl:hasExactSynonym	Model
-WARN	duplicate_label_synonym	NCIT:C17007	oboInOwl:hasExactSynonym	Positron Emission Tomography
-WARN	duplicate_label_synonym	NCIT:C17103	oboInOwl:hasExactSynonym	Risk Factor
-WARN	duplicate_label_synonym	NCIT:C17203	oboInOwl:hasExactSynonym	Single Photon Emission Computed Tomography
-WARN	duplicate_label_synonym	NCIT:C17204	oboInOwl:hasExactSynonym	Computed Tomography
-WARN	duplicate_label_synonym	NCIT:C17241	oboInOwl:hasExactSynonym	Urinalysis
-WARN	duplicate_label_synonym	NCIT:C17369	oboInOwl:hasExactSynonym	Imaging Technique
-WARN	duplicate_label_synonym	NCIT:C17427	oboInOwl:hasExactSynonym	Smoking Cessation
-WARN	duplicate_label_synonym	NCIT:C17456	oboInOwl:hasExactSynonym	Experimental Model
-WARN	duplicate_label_synonym	NCIT:C17563	oboInOwl:hasExactSynonym	Fluorescence In Situ Hybridization
-WARN	duplicate_label_synonym	NCIT:C17565	oboInOwl:hasExactSynonym	Sequence Analysis
-WARN	duplicate_label_synonym	NCIT:C17708	oboInOwl:hasExactSynonym	Physical Activity
-WARN	duplicate_label_synonym	NCIT:C178133	oboInOwl:hasExactSynonym	Structural Neuroimaging
-WARN	duplicate_label_synonym	NCIT:C17958	oboInOwl:hasExactSynonym	Functional Magnetic Resonance Imaging
-WARN	duplicate_label_synonym	NCIT:C18020	oboInOwl:hasExactSynonym	Diagnostic Procedure
-WARN	duplicate_label_synonym	NCIT:C18244	oboInOwl:hasExactSynonym	Environmental Risk Factor
-WARN	duplicate_label_synonym	NCIT:C18280	oboInOwl:hasExactSynonym	Cytogenetic Analysis
-WARN	duplicate_label_synonym	NCIT:C18302	oboInOwl:hasExactSynonym	Genetic Variation Analysis
-WARN	duplicate_label_synonym	NCIT:C18808	oboInOwl:hasExactSynonym	Genetic Risk
-WARN	duplicate_label_synonym	NCIT:C19146	oboInOwl:hasExactSynonym	In Vitro Model
-WARN	duplicate_label_synonym	NCIT:C19148	oboInOwl:hasExactSynonym	In Vivo Model
-WARN	duplicate_label_synonym	NCIT:C19235	oboInOwl:hasExactSynonym	Molecular Genetic Technique
-WARN	duplicate_label_synonym	NCIT:C19272	oboInOwl:hasExactSynonym	Transgenic Model
-WARN	duplicate_label_synonym	NCIT:C19332	oboInOwl:hasExactSynonym	Personal Attribute
-WARN	duplicate_label_synonym	NCIT:C20078	oboInOwl:hasExactSynonym	SF-36
-WARN	duplicate_label_synonym	NCIT:C20828	oboInOwl:hasExactSynonym	Optical Coherence Tomography
-WARN	duplicate_label_synonym	NCIT:C20993	oboInOwl:hasExactSynonym	Research or Clinical Assessment Tool
-WARN	duplicate_label_synonym	NCIT:C21042	oboInOwl:hasExactSynonym	Group Therapy
-WARN	duplicate_label_synonym	NCIT:C25150	oboInOwl:hasExactSynonym	Age
-WARN	duplicate_label_synonym	NCIT:C25298	oboInOwl:hasExactSynonym	Systolic Blood Pressure
-WARN	duplicate_label_synonym	NCIT:C25299	oboInOwl:hasExactSynonym	Diastolic Blood Pressure
-WARN	duplicate_label_synonym	NCIT:C25347	oboInOwl:hasExactSynonym	Height
-WARN	duplicate_label_synonym	NCIT:C25499	oboInOwl:hasExactSynonym	Event
-WARN	duplicate_label_synonym	NCIT:C25729	oboInOwl:hasExactSynonym	Adherence
-WARN	duplicate_label_synonym	NCIT:C2849	oboInOwl:hasExactSynonym	Congenital Abnormality
-WARN	duplicate_label_synonym	NCIT:C29484	oboInOwl:hasExactSynonym	Total Parenteral Nutrition
-WARN	duplicate_label_synonym	NCIT:C2959	oboInOwl:hasExactSynonym	Complication
-WARN	duplicate_label_synonym	NCIT:C34660	oboInOwl:hasExactSynonym	Head Injury
-WARN	duplicate_label_synonym	NCIT:C34724	oboInOwl:hasExactSynonym	Low Birth Weight
-WARN	duplicate_label_synonym	NCIT:C34941	oboInOwl:hasExactSynonym	Pregnancy Complication
-WARN	duplicate_label_synonym	NCIT:C35470	oboInOwl:hasExactSynonym	Behavioral Disorder
-WARN	duplicate_label_synonym	NCIT:C38056	oboInOwl:hasExactSynonym	Electromyography
-WARN	duplicate_label_synonym	NCIT:C39011	oboInOwl:hasExactSynonym	Cardiac Hypertrophy Pathway
-WARN	duplicate_label_synonym	NCIT:C39194	oboInOwl:hasExactSynonym	Phospholipase C Signaling Pathway
-WARN	duplicate_label_synonym	NCIT:C39774	oboInOwl:hasExactSynonym	Aerobic Exercise
-WARN	duplicate_label_synonym	NCIT:C40438	oboInOwl:hasExactSynonym	Beck Depression Inventory
-WARN	duplicate_label_synonym	NCIT:C49286	oboInOwl:hasExactSynonym	Hematology Test
-WARN	duplicate_label_synonym	NCIT:C50564	oboInOwl:hasExactSynonym	Fetal Hypoxia
-WARN	duplicate_label_synonym	NCIT:C53458	oboInOwl:hasExactSynonym	Sign
-WARN	duplicate_label_synonym	NCIT:C54706	oboInOwl:hasExactSynonym	Blood Pressure
-WARN	duplicate_label_synonym	NCIT:C61014	oboInOwl:hasExactSynonym	Serum Chemistry Measurement
-WARN	duplicate_label_synonym	NCIT:C61547	oboInOwl:hasExactSynonym	Counseling
-WARN	duplicate_label_synonym	NCIT:C62736	oboInOwl:hasExactSynonym	Cognitive Assessment
-WARN	duplicate_label_synonym	NCIT:C63474	oboInOwl:hasExactSynonym	Behavioral, Psychological or Informational Intervention
-WARN	duplicate_label_synonym	NCIT:C63479	oboInOwl:hasExactSynonym	Gene Expression Analysis
-WARN	duplicate_label_synonym	NCIT:C64345	oboInOwl:hasExactSynonym	Cognitive Behavior Therapy
-WARN	duplicate_label_synonym	NCIT:C64862	oboInOwl:hasExactSynonym	Diffusion Tensor Imaging
-WARN	duplicate_label_synonym	NCIT:C67022	oboInOwl:hasExactSynonym	Nutritional Intervention
-WARN	duplicate_label_synonym	NCIT:C67031	oboInOwl:hasExactSynonym	Art Therapy
-WARN	duplicate_label_synonym	NCIT:C67056	oboInOwl:hasExactSynonym	Screening Method
-WARN	duplicate_label_synonym	NCIT:C71164	oboInOwl:hasExactSynonym	Animal Model
-WARN	duplicate_label_synonym	NCIT:C74611	oboInOwl:hasExactSynonym	Erythrocyte Sedimentation Rate Measurement
-WARN	duplicate_label_synonym	NCIT:C74982	oboInOwl:hasExactSynonym	Mini-Mental Status Exam
-WARN	duplicate_label_synonym	NCIT:C78139	oboInOwl:hasExactSynonym	Drug Test
-WARN	duplicate_label_synonym	NCIT:C78433	oboInOwl:hasExactSynonym	Increased Libido
-WARN	duplicate_label_synonym	NCIT:C80400	oboInOwl:hasExactSynonym	Fasting Blood Sugar Measurement
-WARN	duplicate_label_synonym	NCIT:C80519	oboInOwl:hasExactSynonym	Biological Model
-WARN	duplicate_label_synonym	NCIT:C81271	oboInOwl:hasExactSynonym	Multiple Birth
-WARN	duplicate_label_synonym	NCIT:C81328	oboInOwl:hasExactSynonym	Body Weight
-WARN	duplicate_label_synonym	NCIT:C85392	oboInOwl:hasExactSynonym	Assessment of Motor and Process Skills
-WARN	duplicate_label_synonym	NCIT:C88416	oboInOwl:hasExactSynonym	Verbal Memory
-WARN	duplicate_label_synonym	NCIT:C88419	oboInOwl:hasExactSynonym	Executive Function
-WARN	duplicate_label_synonym	NCIT:C91438	oboInOwl:hasExactSynonym	Neuroactive Ligand-Receptor Signaling Pathway
-WARN	duplicate_label_synonym	NCIT:C92913	oboInOwl:hasExactSynonym	Vaginal Bleeding during Pregnancy
-WARN	duplicate_label_synonym	NCIT:C93303	oboInOwl:hasExactSynonym	Electroconvulsive Therapy
-WARN	duplicate_label_synonym	NCIT:C93347	oboInOwl:hasExactSynonym	Family Therapy
-WARN	duplicate_label_synonym	NCIT:C94390	oboInOwl:hasExactSynonym	Brief Psychotic Disorder
-WARN	duplicate_label_synonym	NCIT:C99230	oboInOwl:hasExactSynonym	Synbiotic Supplement
-WARN	duplicate_label_synonym	NCIT:C99266	oboInOwl:hasExactSynonym	Breath Alcohol Test Device
-WARN	duplicate_label_synonym	NCIT:C99753	oboInOwl:hasExactSynonym	Disruptive Behavior Disorder
-WARN	duplicate_label_synonym	NCIT:NHC0	oboInOwl:hasExactSynonym	code
-WARN	duplicate_label_synonym	NCIT:P106	oboInOwl:hasExactSynonym	Semantic_Type
-WARN	duplicate_label_synonym	NCIT:P107	oboInOwl:hasExactSynonym	Display_Name
-WARN	duplicate_label_synonym	NCIT:P108	oboInOwl:hasExactSynonym	Preferred_Name
-WARN	duplicate_label_synonym	NCIT:P207	oboInOwl:hasExactSynonym	UMLS_CUI
-WARN	duplicate_label_synonym	NCIT:P208	oboInOwl:hasExactSynonym	NCI_META_CUI
-WARN	duplicate_label_synonym	NCIT:P215	oboInOwl:hasExactSynonym	KEGG_ID
-WARN	duplicate_label_synonym	NCIT:P216	oboInOwl:hasExactSynonym	BioCarta_ID
-WARN	duplicate_label_synonym	NCIT:P317	oboInOwl:hasExactSynonym	FDA_Table
-WARN	duplicate_label_synonym	NCIT:P322	oboInOwl:hasExactSynonym	Contributing_Source
-WARN	duplicate_label_synonym	NCIT:P325	oboInOwl:hasExactSynonym	ALT_DEFINITION
-WARN	duplicate_label_synonym	NCIT:P329	oboInOwl:hasExactSynonym	PDQ_Open_Trial_Search_ID
-WARN	duplicate_label_synonym	NCIT:P330	oboInOwl:hasExactSynonym	PDQ_Closed_Trial_Search_ID
-WARN	duplicate_label_synonym	NCIT:P333	oboInOwl:hasExactSynonym	Use_For
-WARN	duplicate_label_synonym	NCIT:P366	oboInOwl:hasExactSynonym	Legacy Concept Name
-WARN	duplicate_label_synonym	NCIT:P375	oboInOwl:hasExactSynonym	Maps_To
-WARN	duplicate_label_synonym	NCIT:P399	oboInOwl:hasExactSynonym	NCI_Drug_Dictionary_ID
-WARN	duplicate_label_synonym	NCIT:P98	oboInOwl:hasExactSynonym	DesignNote
-WARN	duplicate_label_synonym	SYMP:0000124	oboInOwl:hasExactSynonym	seizure
-WARN	duplicate_label_synonym	UBERON:0002020	oboInOwl:hasExactSynonym	gray matter
-WARN	duplicate_label_synonym	UBERON:0002285	oboInOwl:hasExactSynonym	telencephalic ventricle
-WARN	duplicate_label_synonym	UBERON:0002435	oboInOwl:hasExactSynonym	striatum
-WARN	duplicate_label_synonym	UBERON:0002651	oboInOwl:hasExactSynonym	anterior horn of lateral ventricle
-WARN	duplicate_label_synonym	UBERON:0002739	oboInOwl:hasExactSynonym	medial dorsal nucleus of thalamus
-WARN	duplicate_label_synonym	UBERON:0003881	oboInOwl:hasExactSynonym	CA1 field of hippocampus
-WARN	duplicate_label_synonym	UBERON:0004679	oboInOwl:hasExactSynonym	dentate gyrus molecular layer
-WARN	duplicate_label_synonym	UBERON:0006091	oboInOwl:hasExactSynonym	inferior horn of the lateral ventricle
-WARN	duplicate_label_synonym	UBERON:0006093	oboInOwl:hasExactSynonym	precuneus cortex
-WARN	duplicate_label_synonym	UBERON:0006101	oboInOwl:hasExactSynonym	Brodmann (1909) area 24
-WARN	duplicate_label_synonym	UBERON:0006446	oboInOwl:hasExactSynonym	rostral middle frontal gyrus
-WARN	duplicate_label_synonym	UBERON:0006473	oboInOwl:hasExactSynonym	Brodmann (1909) area 18
-WARN	duplicate_label_synonym	UBERON:0006481	oboInOwl:hasExactSynonym	Brodmann (1909) area 44
-WARN	duplicate_label_synonym	UBERON:0006483	oboInOwl:hasExactSynonym	Brodmann (1909) area 46
-WARN	duplicate_label_synonym	UBERON:0006484	oboInOwl:hasExactSynonym	Brodmann (1909) area 47
-WARN	duplicate_label_synonym	UBERON:0013528	oboInOwl:hasExactSynonym	Brodmann (1909) area 11
-WARN	duplicate_label_synonym	UBERON:0013539	oboInOwl:hasExactSynonym	Brodmann (1909) area 8
-WARN	duplicate_label_synonym	UBERON:0013540	oboInOwl:hasExactSynonym	Brodmann (1909) area 9
-WARN	duplicate_label_synonym	UBERON:0013541	oboInOwl:hasExactSynonym	Brodmann (1909) area 10
-WARN	duplicate_label_synonym	UBERON:0013550	oboInOwl:hasExactSynonym	Brodmann (1909) area 19
-WARN	duplicate_label_synonym	UBERON:0013556	oboInOwl:hasExactSynonym	Brodmann (1909) area 25
-WARN	duplicate_label_synonym	UBERON:0013560	oboInOwl:hasExactSynonym	Brodmann (1909) area 32
-WARN	duplicate_label_synonym	UBERON:0022716	oboInOwl:hasExactSynonym	lateral orbital frontal cortex
-WARN	duplicate_label_synonym	oboInOwl:hasDbXref	oboInOwl:hasExactSynonym	database_cross_reference
 WARN	annotation_whitespace	BFO:0000002	IAO:0000602	(forall (x y) (if (and (Continuant x) (exists (t) (continuantPartOfAt y x t))) (Continuant y))) // axiom label in BFO2 CLIF: [009-002] 
 WARN	annotation_whitespace	BFO:0000002	IAO:0000602	(forall (x y) (if (and (Continuant x) (exists (t) (hasContinuantPartOfAt y x t))) (Continuant y))) // axiom label in BFO2 CLIF: [126-001] 
 WARN	annotation_whitespace	BFO:0000002	IAO:0000602	(forall (x) (if (Continuant x) (Entity x))) // axiom label in BFO2 CLIF: [008-002] 
@@ -699,6 +354,46 @@ WARN	annotation_whitespace	BFO:0000145	IAO:0000602	(iff (RelationalQuality a) (e
 WARN	annotation_whitespace	BFO:0000146	IAO:0000602	(iff (TwoDimensionalContinuantFiatBoundary a) (and (ContinuantFiatBoundary a) (exists (b) (and (TwoDimensionalSpatialRegion b) (forall (t) (locatedInAt a b t)))))) // axiom label in BFO2 CLIF: [033-001] 
 WARN	annotation_whitespace	BFO:0000147	IAO:0000602	(iff (ZeroDimensionalContinuantFiatBoundary a) (and (ContinuantFiatBoundary a) (exists (b) (and (ZeroDimensionalSpatialRegion b) (forall (t) (locatedInAt a b t)))))) // axiom label in BFO2 CLIF: [031-001] 
 WARN	annotation_whitespace	BFO:0000148	IAO:0000602	(forall (x) (if (ZeroDimensionalTemporalRegion x) (TemporalRegion x))) // axiom label in BFO2 CLIF: [102-001] 
+WARN	annotation_whitespace	IAO:0000115	IAO:0000116	"2012-04-05:
+Barry Smith
+
+The official OBI definition, explaining the meaning of a class or property: 'Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions'  is terrible.
+
+Can you fix to something like:
+
+A statement of necessary and sufficient conditions explaining the meaning of an expression referring to a class or property.
+
+Alan Ruttenberg
+
+Your proposed definition is a reasonable candidate, except that it is very common that necessary and sufficient conditions are not given. Mostly they are necessary, occasionally they are necessary and sufficient or just sufficient. Often they use terms that are not themselves defined and so they effectively can't be evaluated by those criteria.
+
+On the specifics of the proposed definition:
+
+We don't have definitions of 'meaning' or 'expression' or 'property'. For 'reference' in the intended sense I think we use the term 'denotation'. For 'expression', I think we you mean symbol, or identifier. For 'meaning' it differs for class and property. For class we want documentation that let's the intended reader determine whether an entity is instance of the class, or not. For property we want documentation that let's the intended reader determine, given a pair of potential relata, whether the assertion that the relation holds is true. The 'intended reader' part suggests that we also specify who, we expect, would be able to understand the definition, and also generalizes over human and computer reader to include textual and logical definition.
+
+Personally, I am more comfortable weakening definition to documentation, with instructions as to what is desirable.
+
+We also have the outstanding issue of how to aim different definitions to different audiences. A clinical audience reading chebi wants a different sort of definition documentation/definition from a chemistry trained audience, and similarly there is a need for a definition that is adequate for an ontologist to work with.  @en"
+WARN	annotation_whitespace	IAO:0000115	IAO:0000116	"2012-04-05: 
+Barry Smith
+
+OBI??????????????????'???????????????????????????'?????
+
+???????????
+
+?????????????????????????
+
+Alan Ruttenberg
+
+???????????????????????????????????????????????????????????????????????????????????????????????????????
+
+????????????
+
+????“??”??“??”?“??”?????????????“??”??????????“??”???'??'??????????????????????“??”???????????????????????????????????????????????????????????????????????????????? “????”????????????????????????????????????????????????
+
+??????????????????????????????
+
+???????????????????????????????????????chebi???????????????????????/???????????????????? @en"
 WARN	annotation_whitespace	IAO:0000115	IAO:0000116	"2012-04-05: 
 Barry Smith
 
@@ -886,6 +581,406 @@ In the examples above, a reagent is an operational component of a device, but th
 WARN	annotation_whitespace	OMIABIS:0001008	rdfs:comment	"It is argued that Comorbidity occurs due to a disposition established by a prior infection with a pathogenic organism of a different kind.
 @en"
 WARN	annotation_whitespace	RO:0002161	IAO:0000425	?X DisjointWith RO_0002162 some ?Y 
+WARN	missing_definition	BFO:0000141	IAO:0000115	
+WARN	missing_definition	obo:BPDO_00000074	IAO:0000115	
+WARN	missing_definition	obo:BPDO_00000077	IAO:0000115	
+WARN	missing_definition	obo:BPDO_00000078	IAO:0000115	
+WARN	missing_definition	obo:BPDO_00000079	IAO:0000115	
+WARN	missing_definition	obo:BPDO_00000080	IAO:0000115	
+WARN	missing_definition	obo:BPDO_00000082	IAO:0000115	
+WARN	missing_definition	obo:BPDO_00000083	IAO:0000115	
+WARN	missing_definition	obo:BPDO_00000085	IAO:0000115	
+WARN	missing_definition	obo:BPDO_00000087	IAO:0000115	
+WARN	missing_definition	obo:BPDO_00000094	IAO:0000115	
+WARN	missing_definition	obo:BPDO_00000107	IAO:0000115	
+WARN	missing_definition	obo:BPDO_00000108	IAO:0000115	
+WARN	missing_definition	obo:BPDO_00000109	IAO:0000115	
+WARN	missing_definition	obo:BPDO_00000110	IAO:0000115	
+WARN	missing_definition	obo:BPDO_00000140	IAO:0000115	
+WARN	missing_definition	obo:BPDO_00000141	IAO:0000115	
+WARN	missing_definition	obo:BPDO_00000142	IAO:0000115	
+WARN	missing_definition	obo:BPDO_00000143	IAO:0000115	
+WARN	missing_definition	obo:BPDO_00000151	IAO:0000115	
+WARN	missing_definition	obo:BPDO_00000154	IAO:0000115	
+WARN	missing_definition	obo:BPDO_00000155	IAO:0000115	
+WARN	missing_definition	obo:BPDO_00000156	IAO:0000115	
+WARN	missing_definition	obo:BPDO_00000157	IAO:0000115	
+WARN	missing_definition	obo:BPDO_00000158	IAO:0000115	
+WARN	missing_definition	obo:BPDO_00000159	IAO:0000115	
+WARN	missing_definition	obo:BPDO_00000160	IAO:0000115	
+WARN	missing_definition	obo:BPDO_00000162	IAO:0000115	
+WARN	missing_definition	obo:BPDO_00000163	IAO:0000115	
+WARN	missing_definition	obo:BPDO_00000164	IAO:0000115	
+WARN	missing_definition	obo:BPDO_00000165	IAO:0000115	
+WARN	missing_definition	obo:BPDO_00000166	IAO:0000115	
+WARN	missing_definition	obo:BPDO_00000168	IAO:0000115	
+WARN	missing_definition	obo:BPDO_00000169	IAO:0000115	
+WARN	missing_definition	obo:BPDO_00000170	IAO:0000115	
+WARN	missing_definition	obo:BPDO_00000171	IAO:0000115	
+WARN	missing_definition	obo:BPDO_00000185	IAO:0000115	
+WARN	missing_definition	obo:BPDO_00000216	IAO:0000115	
+WARN	missing_definition	obo:BPDO_00000217	IAO:0000115	
+WARN	missing_definition	obo:BPDO_00000218	IAO:0000115	
+WARN	missing_definition	obo:BPDO_00000219	IAO:0000115	
+WARN	missing_definition	obo:BPDO_00000220	IAO:0000115	
+WARN	missing_definition	obo:BPDO_00000221	IAO:0000115	
+WARN	missing_definition	obo:BPDO_00000222	IAO:0000115	
+WARN	missing_definition	obo:BPDO_00000223	IAO:0000115	
+WARN	missing_definition	obo:BPDO_00000224	IAO:0000115	
+WARN	missing_definition	obo:BPDO_00000225	IAO:0000115	
+WARN	missing_definition	obo:BPDO_00000226	IAO:0000115	
+WARN	missing_definition	obo:BPDO_00000227	IAO:0000115	
+WARN	missing_definition	obo:BPDO_00000228	IAO:0000115	
+WARN	missing_definition	obo:BPDO_00000229	IAO:0000115	
+WARN	missing_definition	obo:BPDO_00000232	IAO:0000115	
+WARN	missing_definition	obo:BPDO_00000233	IAO:0000115	
+WARN	missing_definition	obo:BPDO_00000234	IAO:0000115	
+WARN	missing_definition	obo:BPDO_00000235	IAO:0000115	
+WARN	missing_definition	obo:BPDO_00000236	IAO:0000115	
+WARN	missing_definition	obo:BPDO_00000237	IAO:0000115	
+WARN	missing_definition	obo:BPDO_00000238	IAO:0000115	
+WARN	missing_definition	obo:BPDO_00000239	IAO:0000115	
+WARN	missing_definition	obo:BPDO_00000240	IAO:0000115	
+WARN	missing_definition	obo:BPDO_00000241	IAO:0000115	
+WARN	missing_definition	obo:BPDO_00000242	IAO:0000115	
+WARN	missing_definition	obo:BPDO_00000243	IAO:0000115	
+WARN	missing_definition	obo:BPDO_00000244	IAO:0000115	
+WARN	missing_definition	obo:BPDO_00000245	IAO:0000115	
+WARN	missing_definition	obo:BPDO_00000246	IAO:0000115	
+WARN	missing_definition	obo:BPDO_00000247	IAO:0000115	
+WARN	missing_definition	obo:BPDO_00000248	IAO:0000115	
+WARN	missing_definition	CMO:0000000	IAO:0000115	
+WARN	missing_definition	CMO:0000023	IAO:0000115	
+WARN	missing_definition	CMO:0000035	IAO:0000115	
+WARN	missing_definition	CMO:0000036	IAO:0000115	
+WARN	missing_definition	CMO:0000046	IAO:0000115	
+WARN	missing_definition	CMO:0000050	IAO:0000115	
+WARN	missing_definition	CMO:0000051	IAO:0000115	
+WARN	missing_definition	CMO:0000052	IAO:0000115	
+WARN	missing_definition	CMO:0000053	IAO:0000115	
+WARN	missing_definition	CMO:0000118	IAO:0000115	
+WARN	missing_definition	CMO:0000119	IAO:0000115	
+WARN	missing_definition	CMO:0000286	IAO:0000115	
+WARN	missing_definition	CMO:0000294	IAO:0000115	
+WARN	missing_definition	CMO:0000360	IAO:0000115	
+WARN	missing_definition	CMO:0000364	IAO:0000115	
+WARN	missing_definition	CMO:0000490	IAO:0000115	
+WARN	missing_definition	CMO:0000503	IAO:0000115	
+WARN	missing_definition	CMO:0000515	IAO:0000115	
+WARN	missing_definition	CMO:0000545	IAO:0000115	
+WARN	missing_definition	CMO:0001003	IAO:0000115	
+WARN	missing_definition	CMO:0001247	IAO:0000115	
+WARN	missing_definition	CMO:0001822	IAO:0000115	
+WARN	missing_definition	CMO:0001824	IAO:0000115	
+WARN	missing_definition	CMO:0002048	IAO:0000115	
+WARN	missing_definition	CMO:0002049	IAO:0000115	
+WARN	missing_definition	CMO:0002280	IAO:0000115	
+WARN	missing_definition	CMO:0002281	IAO:0000115	
+WARN	missing_definition	CMO:0002570	IAO:0000115	
+WARN	missing_definition	CMO:0002786	IAO:0000115	
+WARN	missing_definition	IAO:0000114	IAO:0000115	
+WARN	missing_definition	IAO:0000425	IAO:0000115	
+WARN	missing_definition	IAO:0000600	IAO:0000115	
+WARN	missing_definition	IAO:0000601	IAO:0000115	
+WARN	missing_definition	IAO:0000602	IAO:0000115	
+WARN	missing_definition	MFOEM:000010	IAO:0000115	
+WARN	missing_definition	MFOEM:000165	IAO:0000115	
+WARN	missing_definition	MFOMD:0000037	IAO:0000115	
+WARN	missing_definition	MFOMD:0000069	IAO:0000115	
+WARN	missing_definition	NCBITaxon:7227	IAO:0000115	
+WARN	missing_definition	NCIT:C39011	IAO:0000115	
+WARN	missing_definition	NCIT:C39194	IAO:0000115	
+WARN	missing_definition	NCIT:C63479	IAO:0000115	
+WARN	missing_definition	OAE:0004334	IAO:0000115	
+WARN	missing_definition	SYMP:0000387	IAO:0000115	
+WARN	missing_definition	SYMP:0000410	IAO:0000115	
+WARN	missing_definition	SYMP:0000459	IAO:0000115	
+WARN	missing_definition	SYMP:0000461	IAO:0000115	
+WARN	missing_definition	SYMP:0000473	IAO:0000115	
+WARN	missing_definition	SYMP:0000480	IAO:0000115	
+WARN	missing_definition	SYMP:0000567	IAO:0000115	
+WARN	missing_definition	SYMP:0019139	IAO:0000115	
+WARN	missing_definition	UBERON:0005913	IAO:0000115	
+WARN	missing_definition	UBERON:0034944	IAO:0000115	
+WARN	missing_definition	obo:UBPROP_0000007	IAO:0000115	
+WARN	missing_definition	obo:UBPROP_0000201	IAO:0000115	
+WARN	missing_definition	obo:UBPROP_0000202	IAO:0000115	
+WARN	missing_definition	obo:mondo#excluded_subClassOf	IAO:0000115	
+WARN	missing_definition	dc11:contributor	IAO:0000115	
+WARN	missing_definition	dc11:description	IAO:0000115	
+WARN	missing_definition	dc11:source	IAO:0000115	
+WARN	missing_definition	dc:contributor	IAO:0000115	
+WARN	missing_definition	dc:license	IAO:0000115	
+WARN	missing_definition	dc:title	IAO:0000115	
+WARN	missing_definition	oboInOwl:hasBroadSynonym	IAO:0000115	
+WARN	missing_definition	oboInOwl:hasNarrowSynonym	IAO:0000115	
+WARN	missing_definition	oboInOwl:hasSynonym	IAO:0000115	
+WARN	missing_definition	oboInOwl:shorthand	IAO:0000115	
+WARN	missing_definition	foaf:depicted_by	IAO:0000115	
+WARN	missing_definition	https://www.wikidata.org/wiki/Property:P1659	IAO:0000115	
+WARN	missing_definition	https://www.wikidata.org/wiki/Property:P486	IAO:0000115	
+WARN	duplicate_scoped_synonym	IAO:0000115	IAO:0000118	DEFINITION
+WARN	duplicate_scoped_synonym	IAO:0000115	oboInOwl:hasExactSynonym	DEFINITION
+WARN	duplicate_scoped_synonym	NCBITaxon:2759	oboInOwl:hasExactSynonym	eukaryotes
+WARN	duplicate_scoped_synonym	NCBITaxon:2759	oboInOwl:hasRelatedSynonym	eukaryotes
+WARN	duplicate_scoped_synonym	NCBITaxon:40674	oboInOwl:hasExactSynonym	mammals
+WARN	duplicate_scoped_synonym	NCBITaxon:40674	oboInOwl:hasRelatedSynonym	mammals
+WARN	duplicate_scoped_synonym	NCBITaxon:6231	oboInOwl:hasExactSynonym	nematodes
+WARN	duplicate_scoped_synonym	NCBITaxon:6231	oboInOwl:hasRelatedSynonym	nematodes
+WARN	duplicate_scoped_synonym	NCBITaxon:6656	oboInOwl:hasExactSynonym	arthropods
+WARN	duplicate_scoped_synonym	NCBITaxon:6656	oboInOwl:hasRelatedSynonym	arthropods
+WARN	duplicate_scoped_synonym	NCBITaxon:7742	oboInOwl:hasExactSynonym	vertebrates
+WARN	duplicate_scoped_synonym	NCBITaxon:7742	oboInOwl:hasRelatedSynonym	vertebrates
+WARN	duplicate_scoped_synonym	NCIT:C74611	oboInOwl:hasExactSynonym	erythrocyte sedimentation rate
+WARN	duplicate_scoped_synonym	NCIT:C74611	oboInOwl:hasRelatedSynonym	erythrocyte sedimentation rate
+WARN	duplicate_scoped_synonym	UBERON:0001018	oboInOwl:hasNarrowSynonym	nerve tract
+WARN	duplicate_scoped_synonym	UBERON:0001018	oboInOwl:hasRelatedSynonym	nerve tract
+WARN	duplicate_scoped_synonym	UBERON:0002769	oboInOwl:hasExactSynonym	gyrus temporalis superior
+WARN	duplicate_scoped_synonym	UBERON:0002769	oboInOwl:hasRelatedSynonym	gyrus temporalis superior
+WARN	duplicate_scoped_synonym	UBERON:0006101	oboInOwl:hasBroadSynonym	B09-24
+WARN	duplicate_scoped_synonym	UBERON:0006101	oboInOwl:hasExactSynonym	B09-24
+WARN	duplicate_scoped_synonym	UBERON:0006473	oboInOwl:hasBroadSynonym	B09-18
+WARN	duplicate_scoped_synonym	UBERON:0006473	oboInOwl:hasExactSynonym	B09-18
+WARN	duplicate_scoped_synonym	UBERON:0006481	oboInOwl:hasBroadSynonym	B09-44
+WARN	duplicate_scoped_synonym	UBERON:0006481	oboInOwl:hasExactSynonym	B09-44
+WARN	duplicate_scoped_synonym	UBERON:0006483	oboInOwl:hasBroadSynonym	B09-46
+WARN	duplicate_scoped_synonym	UBERON:0006483	oboInOwl:hasExactSynonym	B09-46
+WARN	duplicate_scoped_synonym	UBERON:0006483	oboInOwl:hasExactSynonym	middle frontal area 46
+WARN	duplicate_scoped_synonym	UBERON:0006483	oboInOwl:hasRelatedSynonym	middle frontal area 46
+WARN	duplicate_scoped_synonym	UBERON:0006484	oboInOwl:hasBroadSynonym	B09-47
+WARN	duplicate_scoped_synonym	UBERON:0006484	oboInOwl:hasExactSynonym	B09-47
+WARN	duplicate_scoped_synonym	UBERON:0009835	oboInOwl:hasExactSynonym	ACC
+WARN	duplicate_scoped_synonym	UBERON:0009835	oboInOwl:hasRelatedSynonym	ACC
+WARN	duplicate_scoped_synonym	UBERON:0011627	oboInOwl:hasExactSynonym	pars orbitalis
+WARN	duplicate_scoped_synonym	UBERON:0011627	oboInOwl:hasRelatedSynonym	pars orbitalis
+WARN	duplicate_scoped_synonym	UBERON:0013528	oboInOwl:hasBroadSynonym	B09-11
+WARN	duplicate_scoped_synonym	UBERON:0013528	oboInOwl:hasExactSynonym	B09-11
+WARN	duplicate_scoped_synonym	UBERON:0013528	oboInOwl:hasExactSynonym	area 11 of Brodmann
+WARN	duplicate_scoped_synonym	UBERON:0013528	oboInOwl:hasRelatedSynonym	area 11 of Brodmann
+WARN	duplicate_scoped_synonym	UBERON:0013539	oboInOwl:hasBroadSynonym	B09-8
+WARN	duplicate_scoped_synonym	UBERON:0013539	oboInOwl:hasExactSynonym	B09-8
+WARN	duplicate_scoped_synonym	UBERON:0013540	oboInOwl:hasBroadSynonym	B09-9
+WARN	duplicate_scoped_synonym	UBERON:0013540	oboInOwl:hasExactSynonym	B09-9
+WARN	duplicate_scoped_synonym	UBERON:0013541	oboInOwl:hasBroadSynonym	B09-10
+WARN	duplicate_scoped_synonym	UBERON:0013541	oboInOwl:hasExactSynonym	B09-10
+WARN	duplicate_scoped_synonym	UBERON:0013550	oboInOwl:hasBroadSynonym	B09-19
+WARN	duplicate_scoped_synonym	UBERON:0013550	oboInOwl:hasExactSynonym	B09-19
+WARN	duplicate_scoped_synonym	UBERON:0013556	oboInOwl:hasBroadSynonym	B09-25
+WARN	duplicate_scoped_synonym	UBERON:0013556	oboInOwl:hasExactSynonym	B09-25
+WARN	duplicate_scoped_synonym	UBERON:0013560	oboInOwl:hasBroadSynonym	B09-32
+WARN	duplicate_scoped_synonym	UBERON:0013560	oboInOwl:hasExactSynonym	B09-32
+WARN	duplicate_label_synonym	obo:BPDO_00000068	oboInOwl:hasExactSynonym	bipolar affective disorder, current episode depression
+WARN	duplicate_label_synonym	obo:BPDO_00000072	oboInOwl:hasExactSynonym	bipolar affective disorder, current episode manic
+WARN	duplicate_label_synonym	obo:BPDO_00000190	oboInOwl:hasExactSynonym	perinatal risk factor
+WARN	duplicate_label_synonym	obo:BPDO_00000196	oboInOwl:hasExactSynonym	prenatal risk factor
+WARN	duplicate_label_synonym	GO:0007610	oboInOwl:hasExactSynonym	behavior
+WARN	duplicate_label_synonym	HP:0000152	oboInOwl:hasExactSynonym	Abnormality of head or neck
+WARN	duplicate_label_synonym	HP:0000707	oboInOwl:hasExactSynonym	Abnormality of the nervous system
+WARN	duplicate_label_synonym	HP:0000736	oboInOwl:hasExactSynonym	Short attention span
+WARN	duplicate_label_synonym	HP:0000748	oboInOwl:hasExactSynonym	Inappropriate laughter
+WARN	duplicate_label_synonym	HP:0000924	oboInOwl:hasExactSynonym	Abnormality of the skeletal system
+WARN	duplicate_label_synonym	HP:0001197	oboInOwl:hasExactSynonym	Abnormality of prenatal development or birth
+WARN	duplicate_label_synonym	HP:0001507	oboInOwl:hasExactSynonym	Growth abnormality
+WARN	duplicate_label_synonym	HP:0001518	oboInOwl:hasExactSynonym	Small for gestational age
+WARN	duplicate_label_synonym	HP:0001622	oboInOwl:hasExactSynonym	Premature birth
+WARN	duplicate_label_synonym	HP:0002715	oboInOwl:hasExactSynonym	Abnormality of the immune system
+WARN	duplicate_label_synonym	HP:0004395	oboInOwl:hasExactSynonym	Malnutrition
+WARN	duplicate_label_synonym	HP:0012639	oboInOwl:hasExactSynonym	Abnormal nervous system morphology
+WARN	duplicate_label_synonym	HP:0030215	oboInOwl:hasExactSynonym	Inappropriate crying
+WARN	duplicate_label_synonym	HP:0040195	oboInOwl:hasExactSynonym	Decreased head circumference
+WARN	duplicate_label_synonym	HP:0100543	oboInOwl:hasExactSynonym	Cognitive impairment
+WARN	duplicate_label_synonym	HP:0100716	oboInOwl:hasExactSynonym	Self-injurious behavior
+WARN	duplicate_label_synonym	MONDO:0004955	oboInOwl:hasExactSynonym	metabolic syndrome
+WARN	duplicate_label_synonym	MONDO:0005582	oboInOwl:hasExactSynonym	binge eating disorder
+WARN	duplicate_label_synonym	MONDO:0007440	oboInOwl:hasExactSynonym	major affective disorder 1
+WARN	duplicate_label_synonym	MONDO:0010096	oboInOwl:hasExactSynonym	tardive dyskinesia
+WARN	duplicate_label_synonym	MONDO:0010648	oboInOwl:hasExactSynonym	major affective disorder 2
+WARN	duplicate_label_synonym	MONDO:0012319	oboInOwl:hasExactSynonym	major affective disorder 3
+WARN	duplicate_label_synonym	MONDO:0012642	oboInOwl:hasExactSynonym	major affective disorder 4
+WARN	duplicate_label_synonym	MONDO:0012685	oboInOwl:hasExactSynonym	major affective disorder 5
+WARN	duplicate_label_synonym	MONDO:0012686	oboInOwl:hasExactSynonym	major affective disorder 6
+WARN	duplicate_label_synonym	MONDO:0012877	oboInOwl:hasExactSynonym	major affective disorder 8
+WARN	duplicate_label_synonym	MONDO:0012881	oboInOwl:hasExactSynonym	major affective disorder 7
+WARN	duplicate_label_synonym	MONDO:0012882	oboInOwl:hasExactSynonym	major affective disorder 9
+WARN	duplicate_label_synonym	MONDO:0013696	oboInOwl:hasExactSynonym	chromosome 2P16.3 deletion syndrome
+WARN	duplicate_label_synonym	MONDO:0021681	oboInOwl:hasExactSynonym	sexually transmitted disease
+WARN	duplicate_label_synonym	MONDO:0024612	oboInOwl:hasExactSynonym	manic bipolar affective disorder
+WARN	duplicate_label_synonym	MONDO:0024613	oboInOwl:hasExactSynonym	bipolar depression
+WARN	duplicate_label_synonym	NCIT:A24	oboInOwl:hasExactSynonym	Is_PCDC_AML_Permissible_Value_For_Variable
+WARN	duplicate_label_synonym	NCIT:A28	oboInOwl:hasExactSynonym	Is_PCDC_EWS_Permissible_Value_For_Variable
+WARN	duplicate_label_synonym	NCIT:A31	oboInOwl:hasExactSynonym	Has_GDC_Value
+WARN	duplicate_label_synonym	NCIT:A32	oboInOwl:hasExactSynonym	Is_Value_For_GDC_Property
+WARN	duplicate_label_synonym	NCIT:A33	oboInOwl:hasExactSynonym	Is_PCDC_GCT_Permissible_Value_For_Variable
+WARN	duplicate_label_synonym	NCIT:A35	oboInOwl:hasExactSynonym	Is_PCDC_ALL_Permissible_Value_For_Variable
+WARN	duplicate_label_synonym	NCIT:A37	oboInOwl:hasExactSynonym	Has_SeroNet_Permissible_Value
+WARN	duplicate_label_synonym	NCIT:C100763	oboInOwl:hasExactSynonym	Clinical Global Impression Original Version Questionnaire
+WARN	duplicate_label_synonym	NCIT:C100767	oboInOwl:hasExactSynonym	Hamilton Depression Rating Scale 17 Item Clinical Classification
+WARN	duplicate_label_synonym	NCIT:C100955	oboInOwl:hasExactSynonym	CGI - Severity of Illness
+WARN	duplicate_label_synonym	NCIT:C102119	oboInOwl:hasExactSynonym	Hamilton Depression Rating Scale 21-Item Clinical Classification
+WARN	duplicate_label_synonym	NCIT:C102124	oboInOwl:hasExactSynonym	Young Mania Rating Scale Questionnaire
+WARN	duplicate_label_synonym	NCIT:C103526	oboInOwl:hasExactSynonym	Patient Health Questionnaire - 9 Item
+WARN	duplicate_label_synonym	NCIT:C113609	oboInOwl:hasExactSynonym	Chronic Liver Disease
+WARN	duplicate_label_synonym	NCIT:C114097	oboInOwl:hasExactSynonym	Post Term Birth
+WARN	duplicate_label_synonym	NCIT:C114141	oboInOwl:hasExactSynonym	Elective Cesarean Delivery
+WARN	duplicate_label_synonym	NCIT:C114371	oboInOwl:hasExactSynonym	Antepartum Hemorrhage
+WARN	duplicate_label_synonym	NCIT:C116532	oboInOwl:hasExactSynonym	Computer-Assisted Cognitive Training
+WARN	duplicate_label_synonym	NCIT:C116655	oboInOwl:hasExactSynonym	Transcranial Magnetic Stimulation
+WARN	duplicate_label_synonym	NCIT:C117015	oboInOwl:hasExactSynonym	Chronic Migraine
+WARN	duplicate_label_synonym	NCIT:C117194	oboInOwl:hasExactSynonym	Psychomotor Retardation
+WARN	duplicate_label_synonym	NCIT:C118254	oboInOwl:hasExactSynonym	Inactivity
+WARN	duplicate_label_synonym	NCIT:C120257	oboInOwl:hasExactSynonym	California Verbal Learning Test - Second Edition
+WARN	duplicate_label_synonym	NCIT:C120258	oboInOwl:hasExactSynonym	Wechsler Memory Scale - Fourth Edition
+WARN	duplicate_label_synonym	NCIT:C121284	oboInOwl:hasExactSynonym	Sensation Seeking Scale
+WARN	duplicate_label_synonym	NCIT:C121351	oboInOwl:hasExactSynonym	Occupational Therapy
+WARN	duplicate_label_synonym	NCIT:C122382	oboInOwl:hasExactSynonym	Montgomery-Asberg Depression Rating Scale Questionnaire
+WARN	duplicate_label_synonym	NCIT:C126879	oboInOwl:hasExactSynonym	Psychosocial Assessment
+WARN	duplicate_label_synonym	NCIT:C129326	oboInOwl:hasExactSynonym	Resting State Functional Connectivity Magnetic Resonance Imaging
+WARN	duplicate_label_synonym	NCIT:C130315	oboInOwl:hasExactSynonym	Inventory of Depressive Symptomatology Self-Report Version Questionnaire
+WARN	duplicate_label_synonym	NCIT:C130319	oboInOwl:hasExactSynonym	World Health Organization Disability Assessment Schedule 2.0 36-item Version Interviewer-administered Questionnaire
+WARN	duplicate_label_synonym	NCIT:C131530	oboInOwl:hasExactSynonym	AX-Continuous Performance Test
+WARN	duplicate_label_synonym	NCIT:C139923	oboInOwl:hasExactSynonym	Breath Carbon Monoxide Monitor
+WARN	duplicate_label_synonym	NCIT:C15308	oboInOwl:hasExactSynonym	Psychotherapy
+WARN	duplicate_label_synonym	NCIT:C15315	oboInOwl:hasExactSynonym	Rehabilitation
+WARN	duplicate_label_synonym	NCIT:C15423	oboInOwl:hasExactSynonym	Psychosocial Rehabilitation
+WARN	duplicate_label_synonym	NCIT:C15447	oboInOwl:hasExactSynonym	Dietary Intervention
+WARN	duplicate_label_synonym	NCIT:C15675	oboInOwl:hasExactSynonym	Adjuvant Therapy
+WARN	duplicate_label_synonym	NCIT:C15710	oboInOwl:hasExactSynonym	Nicotine Replacement
+WARN	duplicate_label_synonym	NCIT:C15747	oboInOwl:hasExactSynonym	Supportive Care
+WARN	duplicate_label_synonym	NCIT:C15900	oboInOwl:hasExactSynonym	Lifestyle Therapy
+WARN	duplicate_label_synonym	NCIT:C15986	oboInOwl:hasExactSynonym	Pharmacotherapy
+WARN	duplicate_label_synonym	NCIT:C160587	oboInOwl:hasExactSynonym	Executive Function Disorder
+WARN	duplicate_label_synonym	NCIT:C16358	oboInOwl:hasExactSynonym	Body Mass Index
+WARN	duplicate_label_synonym	NCIT:C16424	oboInOwl:hasExactSynonym	Childhood Abuse and Neglect
+WARN	duplicate_label_synonym	NCIT:C165543	oboInOwl:hasExactSynonym	Neuropsychological Assessment
+WARN	duplicate_label_synonym	NCIT:C16567	oboInOwl:hasExactSynonym	Exercise
+WARN	duplicate_label_synonym	NCIT:C16768	oboInOwl:hasExactSynonym	Karyotyping
+WARN	duplicate_label_synonym	NCIT:C16809	oboInOwl:hasExactSynonym	Magnetic Resonance Imaging
+WARN	duplicate_label_synonym	NCIT:C16810	oboInOwl:hasExactSynonym	Magnetic Resonance Spectroscopy
+WARN	duplicate_label_synonym	NCIT:C16811	oboInOwl:hasExactSynonym	Magnetoencephalography
+WARN	duplicate_label_synonym	NCIT:C168186	oboInOwl:hasExactSynonym	Electrocardiogram
+WARN	duplicate_label_synonym	NCIT:C16847	oboInOwl:hasExactSynonym	Technique
+WARN	duplicate_label_synonym	NCIT:C16866	oboInOwl:hasExactSynonym	Model
+WARN	duplicate_label_synonym	NCIT:C17007	oboInOwl:hasExactSynonym	Positron Emission Tomography
+WARN	duplicate_label_synonym	NCIT:C17103	oboInOwl:hasExactSynonym	Risk Factor
+WARN	duplicate_label_synonym	NCIT:C17203	oboInOwl:hasExactSynonym	Single Photon Emission Computed Tomography
+WARN	duplicate_label_synonym	NCIT:C17204	oboInOwl:hasExactSynonym	Computed Tomography
+WARN	duplicate_label_synonym	NCIT:C17241	oboInOwl:hasExactSynonym	Urinalysis
+WARN	duplicate_label_synonym	NCIT:C17369	oboInOwl:hasExactSynonym	Imaging Technique
+WARN	duplicate_label_synonym	NCIT:C17427	oboInOwl:hasExactSynonym	Smoking Cessation
+WARN	duplicate_label_synonym	NCIT:C17563	oboInOwl:hasExactSynonym	Fluorescence In Situ Hybridization
+WARN	duplicate_label_synonym	NCIT:C17565	oboInOwl:hasExactSynonym	Sequence Analysis
+WARN	duplicate_label_synonym	NCIT:C17708	oboInOwl:hasExactSynonym	Physical Activity
+WARN	duplicate_label_synonym	NCIT:C178133	oboInOwl:hasExactSynonym	Structural Neuroimaging
+WARN	duplicate_label_synonym	NCIT:C17958	oboInOwl:hasExactSynonym	Functional Magnetic Resonance Imaging
+WARN	duplicate_label_synonym	NCIT:C18020	oboInOwl:hasExactSynonym	Diagnostic Procedure
+WARN	duplicate_label_synonym	NCIT:C18244	oboInOwl:hasExactSynonym	Environmental Risk Factor
+WARN	duplicate_label_synonym	NCIT:C18280	oboInOwl:hasExactSynonym	Cytogenetic Analysis
+WARN	duplicate_label_synonym	NCIT:C18302	oboInOwl:hasExactSynonym	Genetic Variation Analysis
+WARN	duplicate_label_synonym	NCIT:C18808	oboInOwl:hasExactSynonym	Genetic Risk
+WARN	duplicate_label_synonym	NCIT:C19146	oboInOwl:hasExactSynonym	In Vitro Model
+WARN	duplicate_label_synonym	NCIT:C19148	oboInOwl:hasExactSynonym	In Vivo Model
+WARN	duplicate_label_synonym	NCIT:C19235	oboInOwl:hasExactSynonym	Molecular Genetic Technique
+WARN	duplicate_label_synonym	NCIT:C19272	oboInOwl:hasExactSynonym	Transgenic Model
+WARN	duplicate_label_synonym	NCIT:C19332	oboInOwl:hasExactSynonym	Personal Attribute
+WARN	duplicate_label_synonym	NCIT:C20078	oboInOwl:hasExactSynonym	SF-36
+WARN	duplicate_label_synonym	NCIT:C20828	oboInOwl:hasExactSynonym	Optical Coherence Tomography
+WARN	duplicate_label_synonym	NCIT:C20993	oboInOwl:hasExactSynonym	Research or Clinical Assessment Tool
+WARN	duplicate_label_synonym	NCIT:C21042	oboInOwl:hasExactSynonym	Group Therapy
+WARN	duplicate_label_synonym	NCIT:C25150	oboInOwl:hasExactSynonym	Age
+WARN	duplicate_label_synonym	NCIT:C25298	oboInOwl:hasExactSynonym	Systolic Blood Pressure
+WARN	duplicate_label_synonym	NCIT:C25299	oboInOwl:hasExactSynonym	Diastolic Blood Pressure
+WARN	duplicate_label_synonym	NCIT:C25347	oboInOwl:hasExactSynonym	Height
+WARN	duplicate_label_synonym	NCIT:C25499	oboInOwl:hasExactSynonym	Event
+WARN	duplicate_label_synonym	NCIT:C25729	oboInOwl:hasExactSynonym	Adherence
+WARN	duplicate_label_synonym	NCIT:C2849	oboInOwl:hasExactSynonym	Congenital Abnormality
+WARN	duplicate_label_synonym	NCIT:C29484	oboInOwl:hasExactSynonym	Total Parenteral Nutrition
+WARN	duplicate_label_synonym	NCIT:C2959	oboInOwl:hasExactSynonym	Complication
+WARN	duplicate_label_synonym	NCIT:C34660	oboInOwl:hasExactSynonym	Head Injury
+WARN	duplicate_label_synonym	NCIT:C34724	oboInOwl:hasExactSynonym	Low Birth Weight
+WARN	duplicate_label_synonym	NCIT:C34941	oboInOwl:hasExactSynonym	Pregnancy Complication
+WARN	duplicate_label_synonym	NCIT:C35470	oboInOwl:hasExactSynonym	Behavioral Disorder
+WARN	duplicate_label_synonym	NCIT:C38056	oboInOwl:hasExactSynonym	Electromyography
+WARN	duplicate_label_synonym	NCIT:C39011	oboInOwl:hasExactSynonym	Cardiac Hypertrophy Pathway
+WARN	duplicate_label_synonym	NCIT:C39194	oboInOwl:hasExactSynonym	Phospholipase C Signaling Pathway
+WARN	duplicate_label_synonym	NCIT:C39774	oboInOwl:hasExactSynonym	Aerobic Exercise
+WARN	duplicate_label_synonym	NCIT:C40438	oboInOwl:hasExactSynonym	Beck Depression Inventory
+WARN	duplicate_label_synonym	NCIT:C49286	oboInOwl:hasExactSynonym	Hematology Test
+WARN	duplicate_label_synonym	NCIT:C50564	oboInOwl:hasExactSynonym	Fetal Hypoxia
+WARN	duplicate_label_synonym	NCIT:C53458	oboInOwl:hasExactSynonym	Sign
+WARN	duplicate_label_synonym	NCIT:C54706	oboInOwl:hasExactSynonym	Blood Pressure
+WARN	duplicate_label_synonym	NCIT:C61014	oboInOwl:hasExactSynonym	Serum Chemistry Measurement
+WARN	duplicate_label_synonym	NCIT:C61547	oboInOwl:hasExactSynonym	Counseling
+WARN	duplicate_label_synonym	NCIT:C62736	oboInOwl:hasExactSynonym	Cognitive Assessment
+WARN	duplicate_label_synonym	NCIT:C63474	oboInOwl:hasExactSynonym	Behavioral, Psychological or Informational Intervention
+WARN	duplicate_label_synonym	NCIT:C63479	oboInOwl:hasExactSynonym	Gene Expression Analysis
+WARN	duplicate_label_synonym	NCIT:C64345	oboInOwl:hasExactSynonym	Cognitive Behavior Therapy
+WARN	duplicate_label_synonym	NCIT:C64862	oboInOwl:hasExactSynonym	Diffusion Tensor Imaging
+WARN	duplicate_label_synonym	NCIT:C67022	oboInOwl:hasExactSynonym	Nutritional Intervention
+WARN	duplicate_label_synonym	NCIT:C67031	oboInOwl:hasExactSynonym	Art Therapy
+WARN	duplicate_label_synonym	NCIT:C67056	oboInOwl:hasExactSynonym	Screening Method
+WARN	duplicate_label_synonym	NCIT:C71164	oboInOwl:hasExactSynonym	Animal Model
+WARN	duplicate_label_synonym	NCIT:C74611	oboInOwl:hasExactSynonym	Erythrocyte Sedimentation Rate Measurement
+WARN	duplicate_label_synonym	NCIT:C74982	oboInOwl:hasExactSynonym	Mini-Mental Status Exam
+WARN	duplicate_label_synonym	NCIT:C78139	oboInOwl:hasExactSynonym	Drug Test
+WARN	duplicate_label_synonym	NCIT:C78433	oboInOwl:hasExactSynonym	Increased Libido
+WARN	duplicate_label_synonym	NCIT:C80400	oboInOwl:hasExactSynonym	Fasting Blood Sugar Measurement
+WARN	duplicate_label_synonym	NCIT:C80519	oboInOwl:hasExactSynonym	Biological Model
+WARN	duplicate_label_synonym	NCIT:C81271	oboInOwl:hasExactSynonym	Multiple Birth
+WARN	duplicate_label_synonym	NCIT:C81328	oboInOwl:hasExactSynonym	Body Weight
+WARN	duplicate_label_synonym	NCIT:C85392	oboInOwl:hasExactSynonym	Assessment of Motor and Process Skills
+WARN	duplicate_label_synonym	NCIT:C88416	oboInOwl:hasExactSynonym	Verbal Memory
+WARN	duplicate_label_synonym	NCIT:C88419	oboInOwl:hasExactSynonym	Executive Function
+WARN	duplicate_label_synonym	NCIT:C91438	oboInOwl:hasExactSynonym	Neuroactive Ligand-Receptor Signaling Pathway
+WARN	duplicate_label_synonym	NCIT:C92913	oboInOwl:hasExactSynonym	Vaginal Bleeding during Pregnancy
+WARN	duplicate_label_synonym	NCIT:C93303	oboInOwl:hasExactSynonym	Electroconvulsive Therapy
+WARN	duplicate_label_synonym	NCIT:C93347	oboInOwl:hasExactSynonym	Family Therapy
+WARN	duplicate_label_synonym	NCIT:C94390	oboInOwl:hasExactSynonym	Brief Psychotic Disorder
+WARN	duplicate_label_synonym	NCIT:C99230	oboInOwl:hasExactSynonym	Synbiotic Supplement
+WARN	duplicate_label_synonym	NCIT:C99266	oboInOwl:hasExactSynonym	Breath Alcohol Test Device
+WARN	duplicate_label_synonym	NCIT:C99753	oboInOwl:hasExactSynonym	Disruptive Behavior Disorder
+WARN	duplicate_label_synonym	NCIT:NHC0	oboInOwl:hasExactSynonym	code
+WARN	duplicate_label_synonym	NCIT:P106	oboInOwl:hasExactSynonym	Semantic_Type
+WARN	duplicate_label_synonym	NCIT:P107	oboInOwl:hasExactSynonym	Display_Name
+WARN	duplicate_label_synonym	NCIT:P108	oboInOwl:hasExactSynonym	Preferred_Name
+WARN	duplicate_label_synonym	NCIT:P207	oboInOwl:hasExactSynonym	UMLS_CUI
+WARN	duplicate_label_synonym	NCIT:P208	oboInOwl:hasExactSynonym	NCI_META_CUI
+WARN	duplicate_label_synonym	NCIT:P215	oboInOwl:hasExactSynonym	KEGG_ID
+WARN	duplicate_label_synonym	NCIT:P216	oboInOwl:hasExactSynonym	BioCarta_ID
+WARN	duplicate_label_synonym	NCIT:P317	oboInOwl:hasExactSynonym	FDA_Table
+WARN	duplicate_label_synonym	NCIT:P322	oboInOwl:hasExactSynonym	Contributing_Source
+WARN	duplicate_label_synonym	NCIT:P325	oboInOwl:hasExactSynonym	ALT_DEFINITION
+WARN	duplicate_label_synonym	NCIT:P329	oboInOwl:hasExactSynonym	PDQ_Open_Trial_Search_ID
+WARN	duplicate_label_synonym	NCIT:P330	oboInOwl:hasExactSynonym	PDQ_Closed_Trial_Search_ID
+WARN	duplicate_label_synonym	NCIT:P333	oboInOwl:hasExactSynonym	Use_For
+WARN	duplicate_label_synonym	NCIT:P366	oboInOwl:hasExactSynonym	Legacy Concept Name
+WARN	duplicate_label_synonym	NCIT:P375	oboInOwl:hasExactSynonym	Maps_To
+WARN	duplicate_label_synonym	NCIT:P399	oboInOwl:hasExactSynonym	NCI_Drug_Dictionary_ID
+WARN	duplicate_label_synonym	NCIT:P98	oboInOwl:hasExactSynonym	DesignNote
+WARN	duplicate_label_synonym	SYMP:0000124	oboInOwl:hasExactSynonym	seizure
+WARN	duplicate_label_synonym	UBERON:0002020	oboInOwl:hasExactSynonym	gray matter
+WARN	duplicate_label_synonym	UBERON:0002285	oboInOwl:hasExactSynonym	telencephalic ventricle
+WARN	duplicate_label_synonym	UBERON:0002435	oboInOwl:hasExactSynonym	striatum
+WARN	duplicate_label_synonym	UBERON:0002651	oboInOwl:hasExactSynonym	anterior horn of lateral ventricle
+WARN	duplicate_label_synonym	UBERON:0002739	oboInOwl:hasExactSynonym	medial dorsal nucleus of thalamus
+WARN	duplicate_label_synonym	UBERON:0003881	oboInOwl:hasExactSynonym	CA1 field of hippocampus
+WARN	duplicate_label_synonym	UBERON:0004679	oboInOwl:hasExactSynonym	dentate gyrus molecular layer
+WARN	duplicate_label_synonym	UBERON:0006091	oboInOwl:hasExactSynonym	inferior horn of the lateral ventricle
+WARN	duplicate_label_synonym	UBERON:0006093	oboInOwl:hasExactSynonym	precuneus cortex
+WARN	duplicate_label_synonym	UBERON:0006101	oboInOwl:hasExactSynonym	Brodmann (1909) area 24
+WARN	duplicate_label_synonym	UBERON:0006446	oboInOwl:hasExactSynonym	rostral middle frontal gyrus
+WARN	duplicate_label_synonym	UBERON:0006473	oboInOwl:hasExactSynonym	Brodmann (1909) area 18
+WARN	duplicate_label_synonym	UBERON:0006481	oboInOwl:hasExactSynonym	Brodmann (1909) area 44
+WARN	duplicate_label_synonym	UBERON:0006483	oboInOwl:hasExactSynonym	Brodmann (1909) area 46
+WARN	duplicate_label_synonym	UBERON:0006484	oboInOwl:hasExactSynonym	Brodmann (1909) area 47
+WARN	duplicate_label_synonym	UBERON:0013528	oboInOwl:hasExactSynonym	Brodmann (1909) area 11
+WARN	duplicate_label_synonym	UBERON:0013539	oboInOwl:hasExactSynonym	Brodmann (1909) area 8
+WARN	duplicate_label_synonym	UBERON:0013540	oboInOwl:hasExactSynonym	Brodmann (1909) area 9
+WARN	duplicate_label_synonym	UBERON:0013541	oboInOwl:hasExactSynonym	Brodmann (1909) area 10
+WARN	duplicate_label_synonym	UBERON:0013550	oboInOwl:hasExactSynonym	Brodmann (1909) area 19
+WARN	duplicate_label_synonym	UBERON:0013556	oboInOwl:hasExactSynonym	Brodmann (1909) area 25
+WARN	duplicate_label_synonym	UBERON:0013560	oboInOwl:hasExactSynonym	Brodmann (1909) area 32
+WARN	duplicate_label_synonym	UBERON:0022716	oboInOwl:hasExactSynonym	lateral orbital frontal cortex
+WARN	duplicate_label_synonym	oboInOwl:hasDbXref	oboInOwl:hasExactSynonym	database_cross_reference
 INFO	missing_superclass	BFO:0000001	rdfs:subClassOf	
 INFO	lowercase_definition	BFO:0000004	IAO:0000115	b is an independent continuant = Def. b is a continuant which is such that there is no c and no t such that b s-depends_on c at t. (axiom label in BFO2 Reference: [017-002])@en
 INFO	lowercase_definition	BFO:0000015	IAO:0000115	p is a process = Def. p is an occurrent that has temporal proper parts and for some time t, p s-depends_on some material entity at t. (axiom label in BFO2 Reference: [083-003])@en
@@ -907,7 +1002,13 @@ INFO	lowercase_definition	BFO:0000145	IAO:0000115	b is a relational quality = De
 INFO	lowercase_definition	BFO:0000146	IAO:0000600	a two-dimensional continuant fiat boundary (surface) is a self-connected fiat surface whose location is defined in relation to some material entity. (axiom label in BFO2 Reference: [033-001])@en
 INFO	lowercase_definition	BFO:0000147	IAO:0000600	a zero-dimensional continuant fiat boundary is a fiat point whose location is defined in relation to some material entity. (axiom label in BFO2 Reference: [031-001])@en
 INFO	lowercase_definition	obo:BPDO_00000111	IAO:0000115	an interview in which a health or mental health professional explores a patient’s presenting problem, current situation, and background, with the aim of formulating a diagnosis and prognosis as well as developing a treatment program.
+INFO	lowercase_definition	IAO:0000111	IAO:0000115	?????????????????????????????????? ??????@zh
+INFO	lowercase_definition	IAO:0000115	IAO:0000115	???????????????????????????????????? ?????????????@zh
+INFO	lowercase_definition	IAO:0000116	IAO:0000115	??????????????????????????????????????????????????@zh
+INFO	lowercase_definition	IAO:0000117	IAO:0000115	??????????????????????????????????????????????????????????????@zh
+INFO	lowercase_definition	IAO:0000118	IAO:0000115	??????????????????????????????????@zh
 INFO	lowercase_definition	IAO:0000119	IAO:0000115	formal citation, e.g. identifier in external database to indicate / attribute source(s) for the definition. Free text indicate / attribute source(s) for the definition. EXAMPLE: Author Name, URI, MeSH Term C04, PUBMED ID, Wiki uri on 31.01.2007@en
+INFO	lowercase_definition	IAO:0000119	IAO:0000115	???????????????????????/???????S????????/???????S??????2007?1?31???????URI?MeSH??C04?PUBMEDID???uri@zh
 INFO	lowercase_definition	MFOMD:0000101	IAO:0000115	"
 Erroneous beliefs that usually involve a misinterpretation of perceptions or experiences. (their content may include a variety of themes (e.g., persecutory, referential, somatic, religious, or grandiose).
 

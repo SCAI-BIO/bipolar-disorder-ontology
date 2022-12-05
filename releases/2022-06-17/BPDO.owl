@@ -84,8 +84,11 @@
         <obo:IAO_0000111>editor preferred term</obo:IAO_0000111>
         <obo:IAO_0000111 xml:lang="en">editor preferred term</obo:IAO_0000111>
         <obo:IAO_0000111>editor preferred term~editor preferred label</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="zh">编辑首选术语</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="zh">编辑首选标签</obo:IAO_0000111>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
         <obo:IAO_0000115 xml:lang="en">The concise, meaningful, and human-friendly name for a class or property preferred by the ontology developers. (US-English)</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="zh">对于一类或属性的简洁的、有意义的、与人类友好的名称由本体开发商首选。 （美国英语）</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">PERSON:Daniel Schober</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obolibrary.org/obo/obi&gt;</obo:IAO_0000119>
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
@@ -94,6 +97,12 @@
         <rdfs:label>editor preferred term</rdfs:label>
         <rdfs:label xml:lang="en">editor preferred term</rdfs:label>
         <rdfs:label>editor preferred term~editor preferred label</rdfs:label>
+        <rdfs:label xml:lang="en">editor preferred term~editor preferred label</rdfs:label>
+        <rdfs:label>编辑首选术语</rdfs:label>
+        <rdfs:label xml:lang="zh">编辑首选术语</rdfs:label>
+        <rdfs:label>编辑首选术语~编辑首选标签</rdfs:label>
+        <rdfs:label>编辑首选标签</rdfs:label>
+        <rdfs:label xml:lang="zh">编辑首选标签</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -123,12 +132,15 @@
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000114">
         <obo:IAO_0000111 xml:lang="en">has curation status</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="zh">有管理状态</obo:IAO_0000111>
         <obo:IAO_0000117 xml:lang="en">PERSON:Alan Ruttenberg</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">PERSON:Bill Bug</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">PERSON:Melanie Courtot</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">OBI_0000281</obo:IAO_0000119>
         <rdfs:label>has curation status</rdfs:label>
         <rdfs:label xml:lang="en">has curation status</rdfs:label>
+        <rdfs:label>有管理状态</rdfs:label>
+        <rdfs:label xml:lang="zh">有管理状态</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -139,13 +151,57 @@
         <obo:IAO_0000111>definition</obo:IAO_0000111>
         <obo:IAO_0000111 xml:lang="en">definition</obo:IAO_0000111>
         <obo:IAO_0000111>textual definition</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">textual definition</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="zh">定义</obo:IAO_0000111>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
         <obo:IAO_0000115>A property representing the English language definitions of what NCI means by the concept. They may also include information about the definition&apos;s source and attribution in a form that can easily be interpreted by software.</obo:IAO_0000115>
         <obo:IAO_0000115>English language definitions of what NCI means by the concept. These are limited to 1024 characters. They may also include information about the definition&apos;s source and attribution in a form that can easily be interpreted by software.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="zh">OBI的官方定义，解释类或属性的含义。应该是亚里士多德式的，形式化和规范化的。 可以通过口语定义进行扩充。</obo:IAO_0000115>
         <obo:IAO_0000115 xml:lang="en">The official OBI definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions.</obo:IAO_0000115>
         <obo:IAO_0000115>The official definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions.</obo:IAO_0000115>
         <obo:IAO_0000115 xml:lang="en">The official definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions.</obo:IAO_0000115>
         <obo:IAO_0000115>The official definition.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="zh">官方的定义，解释类或属性的含义。应该是亚里士多德式的，形式化和规范化的。 可以通过口语定义进行扩充。</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">2012-04-05:
+Barry Smith
+
+The official OBI definition, explaining the meaning of a class or property: &apos;Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions&apos;  is terrible.
+
+Can you fix to something like:
+
+A statement of necessary and sufficient conditions explaining the meaning of an expression referring to a class or property.
+
+Alan Ruttenberg
+
+Your proposed definition is a reasonable candidate, except that it is very common that necessary and sufficient conditions are not given. Mostly they are necessary, occasionally they are necessary and sufficient or just sufficient. Often they use terms that are not themselves defined and so they effectively can&apos;t be evaluated by those criteria.
+
+On the specifics of the proposed definition:
+
+We don&apos;t have definitions of &apos;meaning&apos; or &apos;expression&apos; or &apos;property&apos;. For &apos;reference&apos; in the intended sense I think we use the term &apos;denotation&apos;. For &apos;expression&apos;, I think we you mean symbol, or identifier. For &apos;meaning&apos; it differs for class and property. For class we want documentation that let&apos;s the intended reader determine whether an entity is instance of the class, or not. For property we want documentation that let&apos;s the intended reader determine, given a pair of potential relata, whether the assertion that the relation holds is true. The &apos;intended reader&apos; part suggests that we also specify who, we expect, would be able to understand the definition, and also generalizes over human and computer reader to include textual and logical definition.
+
+Personally, I am more comfortable weakening definition to documentation, with instructions as to what is desirable.
+
+We also have the outstanding issue of how to aim different definitions to different audiences. A clinical audience reading chebi wants a different sort of definition documentation/definition from a chemistry trained audience, and similarly there is a need for a definition that is adequate for an ontologist to work with.  </obo:IAO_0000116>
+        <obo:IAO_0000116 xml:lang="en">2012-04-05: 
+Barry Smith
+
+OBI的官方定义解释了一个类或属性的含义：&apos;应该是亚里士多德式的，形式化和规范化的。可以用口语定义&apos;是糟糕的。
+
+您能解决这样的问题吗？
+
+解释关于类或属性的表达含义的必要和充分条件的陈述。
+
+Alan Ruttenberg
+
+您提出的定义是一个合理的备选，除非它很常见，没有给出必要和充分的条件。大多数情况下它们是必要的，偶尔是必要的，充分的或者仅仅仅充分的。它们通常使用不是自己定义的术语，因此它们实际上不能通过这些标准进行评估。
+
+关于拟议定义的具体内容：
+
+我们没有“含义”，或“表达”或“属性”的定义。对于在预期意义上的“参考”，我认为我们使用术语“指示”。对于&apos;表达&apos;，我认为我们和你的意思是符号，或标识符。对于“含义”，它不同于类和属性。对于类，我们希望文档能够让读者确定一个实体是否是该类的实例。对于属性，让我们的目标读者决定，给定一对潜在的关系，判断关系成立的断言正确与否。 “目标读者”部分表明我们也指定了我们期望的能够理解定义的人，并且概括了人类和计算机读者以包含文本和逻辑定义。
+
+就我个人而言，我更愿意削弱对文档的定义，并指出什么是可取的。
+
+我们还有一个悬而未决的问题，就是如何针对不同的受众定位不同的定义。临床读者阅读chebi需要来自受过化学训练的受众的不同类型的定义文档/定义，同样需要一个适合本体工作者的定义。 </obo:IAO_0000116>
         <obo:IAO_0000116 xml:lang="en">2012-04-05: 
 Barry Smith
 
@@ -167,6 +223,7 @@ Personally, I am more comfortable weakening definition to documentation, with in
 
 We also have the outstanding issue of how to aim different definitions to different audiences. A clinical audience reading chebi wants a different sort of definition documentation/definition from a chemistry trained audience, and similarly there is a need for a definition that is adequate for an ontologist to work with.  </obo:IAO_0000116>
         <obo:IAO_0000117 xml:lang="en">PERSON:Daniel Schober</obo:IAO_0000117>
+        <obo:IAO_0000118>DEFINITION</obo:IAO_0000118>
         <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obolibrary.org/obo/obi&gt;</obo:IAO_0000119>
         <obo:SCDO_0000340 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <obo:SCDO_0000363>no</obo:SCDO_0000363>
@@ -176,6 +233,10 @@ We also have the outstanding issue of how to aim different definitions to differ
         <rdfs:label xml:lang="en">definition</rdfs:label>
         <rdfs:label>textual definition</rdfs:label>
         <rdfs:label xml:lang="en">textual definition</rdfs:label>
+        <rdfs:label>定义</rdfs:label>
+        <rdfs:label xml:lang="zh">定义</rdfs:label>
+        <rdfs:label>文本定义</rdfs:label>
+        <rdfs:label xml:lang="zh">文本定义</rdfs:label>
         <rdfs:subPropertyOf rdf:resource="http://www.ebi.ac.uk/efo/definition"/>
     </owl:AnnotationProperty>
     
@@ -185,20 +246,40 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000116">
         <obo:IAO_0000111 xml:lang="en">editor note</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="zh">编者注</obo:IAO_0000111>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
         <obo:IAO_0000115 xml:lang="en">An administrative note intended for its editor. It may not be included in the publication version of the ontology, so it should contain nothing necessary for end users to understand the ontology.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="zh">管理者注释用于其编辑器。它可能不包含在本体的出版版本中，所以它应该不包含最终用户了解本体所需的信息。</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">PERSON:Daniel Schober</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obfoundry.org/obo/obi&gt;</obo:IAO_0000119>
         <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obofoundry.org/obo/obi&gt;</obo:IAO_0000119>
-        <oboInOwl:hasDbXref>IAO:0000116</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace>uberon</oboInOwl:hasOBONamespace>
-        <oboInOwl:id>editor_note</oboInOwl:id>
+        <obo:hasDbXref xml:lang="en">IAO:0000116</obo:hasDbXref>
+        <obo:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IAO:0000116</obo:hasDbXref>
+        <obo:hasOBONamespace xml:lang="en">uberon</obo:hasOBONamespace>
+        <obo:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">uberon</obo:hasOBONamespace>
+        <obo:id xml:lang="en">editor_note</obo:id>
+        <obo:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">editor_note</obo:id>
+        <obo:id xml:lang="zh">编辑_注释</obo:id>
+        <obo:is_metadata_tag rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</obo:is_metadata_tag>
+        <obo:shorthand xml:lang="en">editor_note</obo:shorthand>
+        <obo:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string">editor_note</obo:shorthand>
+        <obo:shorthand xml:lang="zh">编辑_注释</obo:shorthand>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IAO:0000116</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref xml:lang="en">IAO:0000116</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">uberon</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasOBONamespace xml:lang="en">uberon</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">editor_note</oboInOwl:id>
+        <oboInOwl:id xml:lang="en">editor_note</oboInOwl:id>
         <oboInOwl:is_metadata_tag rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</oboInOwl:is_metadata_tag>
         <oboInOwl:is_metadata_tag rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</oboInOwl:is_metadata_tag>
-        <oboInOwl:shorthand>editor_note</oboInOwl:shorthand>
+        <oboInOwl:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string">editor_note</oboInOwl:shorthand>
+        <oboInOwl:shorthand xml:lang="en">editor_note</oboInOwl:shorthand>
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
         <rdfs:label>editor note</rdfs:label>
         <rdfs:label xml:lang="en">editor note</rdfs:label>
+        <rdfs:label>编者注</rdfs:label>
+        <rdfs:label xml:lang="zh">编者注</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IAO:0000116</rdfs:seeAlso>
     </owl:AnnotationProperty>
     
 
@@ -208,18 +289,24 @@ We also have the outstanding issue of how to aim different definitions to differ
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000117">
         <obo:IAO_0000111 xml:lang="en">definition editor</obo:IAO_0000111>
         <obo:IAO_0000111 xml:lang="en">term editor</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="zh">术语编辑者</obo:IAO_0000111>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
         <obo:IAO_0000115 xml:lang="en">Name of editor entering the definition in the file. The definition editor is a point of contact for information regarding the term. The definition editor may be, but is not always, the author of the definition, which may have been worked upon by several people</obo:IAO_0000115>
         <obo:IAO_0000115 xml:lang="en">Name of editor entering the term in the file. The term editor is a point of contact for information regarding the term. The term editor may be, but is not always, the author of the definition, which may have been worked upon by several people</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="zh">输入文件中术语编辑者的名称。术语编辑者是有关术语的信息交汇点。术语编辑者可以是，但并不总是，定义的作者，这可能是由几个人完成</obo:IAO_0000115>
         <obo:IAO_0000116 xml:lang="en">20110707, MC: label update to term editor and definition modified accordingly. See http://code.google.com/p/information-artifact-ontology/issues/detail?id=115.</obo:IAO_0000116>
         <obo:IAO_0000116 xml:lang="en">20110707, MC: label update to term editor and definition modified accordingly. See https://github.com/information-artifact-ontology/IAO/issues/115.</obo:IAO_0000116>
+        <obo:IAO_0000116 xml:lang="zh">20110707，MC：术语编辑和定义进行相应的修改。见http://code.google.com/p/information-artifact-ontology/issues/detail?id=115。</obo:IAO_0000116>
         <obo:IAO_0000117 xml:lang="en">PERSON:Daniel Schober</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obolibrary.org/obo/obi&gt;</obo:IAO_0000119>
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
         <rdfs:label>definition editor</rdfs:label>
         <rdfs:label xml:lang="en">definition editor</rdfs:label>
+        <rdfs:label>definition_editor</rdfs:label>
         <rdfs:label>term editor</rdfs:label>
         <rdfs:label xml:lang="en">term editor</rdfs:label>
+        <rdfs:label>术语编辑者</rdfs:label>
+        <rdfs:label xml:lang="zh">术语编辑者</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -228,13 +315,17 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000118">
         <obo:IAO_0000111 xml:lang="en">alternative term</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="zh">替代术语</obo:IAO_0000111>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
         <obo:IAO_0000115 xml:lang="en">An alternative name for a class or property which means the same thing as the preferred name (semantically equivalent)</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="zh">一类或属性的替代名称，这意味着与所述首选名称同样的事物（语义上等价）</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">PERSON:Daniel Schober</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obolibrary.org/obo/obi&gt;</obo:IAO_0000119>
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
         <rdfs:label>alternative term</rdfs:label>
         <rdfs:label xml:lang="en">alternative term</rdfs:label>
+        <rdfs:label>替代术语</rdfs:label>
+        <rdfs:label xml:lang="zh">替代术语</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -243,16 +334,22 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000119">
         <obo:IAO_0000111 xml:lang="en">definition source</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="zh">定义来源</obo:IAO_0000111>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
         <obo:IAO_0000115 xml:lang="en">Formal citation, e.g. identifier in external database to indicate / attribute source(s) for the definition. Free text indicate / attribute source(s) for the definition. EXAMPLE: Author Name, URI, MeSH Term C04, PUBMED ID, Wiki uri on 31.01.2007</obo:IAO_0000115>
         <obo:IAO_0000115 xml:lang="en">formal citation, e.g. identifier in external database to indicate / attribute source(s) for the definition. Free text indicate / attribute source(s) for the definition. EXAMPLE: Author Name, URI, MeSH Term C04, PUBMED ID, Wiki uri on 31.01.2007</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="zh">正式引用，例如在外部数据库中的标识符，用于表示/定义的属性源（S）。自由文本表示/为定义属性源（S）。实例：在2007年1月31日的作者姓名，URI，MeSH术语C04，PUBMEDID，维基uri</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">PERSON:Daniel Schober</obo:IAO_0000117>
         <obo:IAO_0000119>Discussion on obo-discuss mailing-list, see http://bit.ly/hgm99w</obo:IAO_0000119>
         <obo:IAO_0000119 xml:lang="en">Discussion on obo-discuss mailing-list, see http://bit.ly/hgm99w</obo:IAO_0000119>
         <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obolibrary.org/obo/obi&gt;</obo:IAO_0000119>
+        <obo:IAO_0000119 xml:lang="zh">论OBO-讨论邮件-列表，请参阅http://bit.ly/hgm99w</obo:IAO_0000119>
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
         <rdfs:label>definition source</rdfs:label>
         <rdfs:label xml:lang="en">definition source</rdfs:label>
+        <rdfs:label>definition_source</rdfs:label>
+        <rdfs:label>定义来源</rdfs:label>
+        <rdfs:label xml:lang="zh">定义来源</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -317,6 +414,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <obo:IAO_0000111 xml:lang="en">OBO foundry unique label</obo:IAO_0000111>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
         <obo:IAO_0000115 xml:lang="en">An alternative name for a class or property which is unique across the OBO Foundry.</obo:IAO_0000115>
+        <obo:IAO_0000116>The intended usage of that property is as follow: OBO foundry unique labels are automatically generated based on regular expressions provided by each ontology, so that SO could specify unique label = &apos;sequence &apos; + [label], etc. , MA could specify &apos;mouse + [label]&apos; etc. Upon importing terms, ontology developers can choose to use the &apos;OBO foundry unique label&apos; for an imported term or not. The same applies to tools .</obo:IAO_0000116>
         <obo:IAO_0000116 xml:lang="en">The intended usage of that property is as follow: OBO foundry unique labels are automatically generated based on regular expressions provided by each ontology, so that SO could specify unique label = &apos;sequence &apos; + [label], etc. , MA could specify &apos;mouse + [label]&apos; etc. Upon importing terms, ontology developers can choose to use the &apos;OBO foundry unique label&apos; for an imported term or not. The same applies to tools .</obo:IAO_0000116>
         <obo:IAO_0000117 xml:lang="en">PERSON:Alan Ruttenberg</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">PERSON:Bjoern Peters</obo:IAO_0000117>
@@ -496,6 +594,7 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P106">
         <obo:IAO_0000115>A property that represents a description of the sort of thing or category to which a concept belongs in the context of the UMLS semantic network.</obo:IAO_0000115>
+        <obo:IAO_0000115>The semantic type describes the sort of thing or category to which a concept belongs in the context of the UMLS semantic network.</obo:IAO_0000115>
         <obo:NCIT_NHC0>P106</obo:NCIT_NHC0>
         <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
         <obo:NCIT_P107>Semantic Type</obo:NCIT_P107>
@@ -511,6 +610,7 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P107">
         <obo:IAO_0000115>A property representing an alternative Preferred Name for use in some NCI systems.</obo:IAO_0000115>
+        <obo:IAO_0000115>Provides an alternative Preferred Name for use in some NCI systems.</obo:IAO_0000115>
         <obo:NCIT_NHC0>P107</obo:NCIT_NHC0>
         <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
         <obo:NCIT_P107>Display Name</obo:NCIT_P107>
@@ -526,6 +626,7 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P108">
         <obo:IAO_0000115>A property representing the word or phrase that NCI uses by preference to refer to the concept.</obo:IAO_0000115>
+        <obo:IAO_0000115>The word or phrase that NCI uses by preference to refer to the concept.</obo:IAO_0000115>
         <obo:NCIT_NHC0>P108</obo:NCIT_NHC0>
         <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
         <obo:NCIT_P107>Preferred Name</obo:NCIT_P107>
@@ -723,6 +824,7 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P98">
         <obo:IAO_0000115>A property representing notations made by NCI vocabulary curators. They are intended to provide supplemental, unstructured information to the user or additional insight about the concept.</obo:IAO_0000115>
+        <obo:IAO_0000115>Design notes are notations made by NCI vocabulary curators. They are intended to provide supplemental, unstructured information to the user or additional insight about the concept.</obo:IAO_0000115>
         <obo:NCIT_NHC0>P98</obo:NCIT_NHC0>
         <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
         <obo:NCIT_P107>DesignNote</obo:NCIT_P107>
@@ -1079,6 +1181,36 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3603413&amp;group_id=177891
     
 
 
+    <!-- http://purl.obolibrary.org/obo/hasDbXref -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/hasDbXref"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/hasOBONamespace -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/hasOBONamespace"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/id -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/id"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/is_metadata_tag -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/is_metadata_tag"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/shorthand -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/shorthand"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/bpdo#Author -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/bpdo#Author"/>
@@ -1203,6 +1335,13 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3603413&amp;group_id=177891
         <obo:SCDO_0000340 rdf:resource="http://purl.org/dc/terms/creator"/>
         <obo:SCDO_0000363>no</obo:SCDO_0000363>
         <obo:SCDO_0000929>ready for release</obo:SCDO_0000929>
+        <dc:description xml:lang="en-us">Examples of a Creator include a person, an organisation,
+         or a service.  Typically, the name of a Creator should 
+         be used to indicate the entity.</dc:description>
+        <rdfs:comment xml:lang="en-us">An entity primarily responsible for making the content 
+         of the resource.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/elements/1.1/"/>
+        <rdfs:label xml:lang="en-us">Creator</rdfs:label>
         <rdfs:label>dc:creator</rdfs:label>
         <skos:prefLabel>Creator</skos:prefLabel>
     </owl:AnnotationProperty>
@@ -1221,10 +1360,17 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3603413&amp;group_id=177891
         <dc:description xml:lang="en-us">Description may include but is not limited to: an abstract,
          table of contents, reference to a graphical representation
          of content or a free-text account of the content.</dc:description>
+        <oboInOwl:hasDbXref rdf:resource="http://purl.org/dc/elements/1.1/description"/>
+        <oboInOwl:hasDbXref>http://purl.org/dc/elements/1.1/description</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>uberon</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>dc-description</oboInOwl:id>
+        <oboInOwl:is_metadata_tag rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</oboInOwl:is_metadata_tag>
+        <oboInOwl:shorthand>dc-description</oboInOwl:shorthand>
         <rdfs:comment xml:lang="en-us">An account of the content of the resource.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/elements/1.1/"/>
         <rdfs:label>Description</rdfs:label>
         <rdfs:label xml:lang="en-us">Description</rdfs:label>
+        <rdfs:label>description</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -1359,6 +1505,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3603413&amp;group_id=177891
         <obo:NCIT_P108>xRef</obo:NCIT_P108>
         <obo:SCDO_0000340 rdf:resource="http://www.ebi.ac.uk/sbo/main/SBO:0000554"/>
         <obo:SCDO_0000929>metadata complete - requires restrictions and relationships</obo:SCDO_0000929>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IAO:0100001</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>SBO:0000554</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>DbXref</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Xref</oboInOwl:hasExactSynonym>
@@ -1367,9 +1514,13 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3603413&amp;group_id=177891
         <oboInOwl:hasExactSynonym>db xref</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>hasDbXref</oboInOwl:hasExactSynonym>
         <rdfs:label>database cross reference</rdfs:label>
+        <rdfs:label xml:lang="en">database cross reference</rdfs:label>
         <rdfs:label>database_cross_reference</rdfs:label>
+        <rdfs:label xml:lang="en">database_cross_reference</rdfs:label>
         <rdfs:label xml:lang="en">has database cross reference</rdfs:label>
         <rdfs:label>xRef</rdfs:label>
+        <rdfs:label>数据库_交叉_引用</rdfs:label>
+        <rdfs:label xml:lang="zh">数据库_交叉_引用</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -1384,11 +1535,13 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3603413&amp;group_id=177891
         <obo:SCDO_0000340 rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <obo:SCDO_0000363>no</obo:SCDO_0000363>
         <obo:SCDO_0000929>pending vetting by the SCDO developers</obo:SCDO_0000929>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IAO:0100001</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>FULL_SYN</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Synonym with Source Data</oboInOwl:hasExactSynonym>
         <rdfs:label>has exact synonym</rdfs:label>
         <rdfs:label>hasExactSynonym</rdfs:label>
         <rdfs:label>has_exact_synonym</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasSynonym"/>
     </owl:AnnotationProperty>
     
 
@@ -1406,8 +1559,12 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3603413&amp;group_id=177891
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace">
         <obo:IAO_0000115>Name space of the ontology.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IAO:0100001</oboInOwl:hasDbXref>
         <rdfs:comment>disease_ontology</rdfs:comment>
         <rdfs:label>has_obo_namespace</rdfs:label>
+        <rdfs:label xml:lang="en">has_obo_namespace</rdfs:label>
+        <rdfs:label>有_obo_命名空间</rdfs:label>
+        <rdfs:label xml:lang="zh">有_obo_命名空间</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -1418,6 +1575,14 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3603413&amp;group_id=177891
         <obo:IAO_0000115>Has related synonym.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">has related synonym</rdfs:label>
         <rdfs:label>has_related_synonym</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasSynonym">
+        <rdfs:label xml:lang="en">has synonym</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -1459,7 +1624,10 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3603413&amp;group_id=177891
     <!-- http://www.geneontology.org/formats/oboInOwl#shorthand -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#shorthand">
+        <obo:IAO_0000111>shorthand</obo:IAO_0000111>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IAO:0100001</oboInOwl:hasDbXref>
         <rdfs:label>shorthand</rdfs:label>
+        <rdfs:label xml:lang="en">shorthand</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -1496,6 +1664,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3603413&amp;group_id=177891
 
     <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#isDefinedBy">
         <obo:IAO_0000115>Is defined by.</obo:IAO_0000115>
+        <obo:IAO_0000589>is defined by</obo:IAO_0000589>
         <rdfs:label>rdfs:isDefinedBy</rdfs:label>
     </owl:AnnotationProperty>
     
@@ -1505,6 +1674,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3603413&amp;group_id=177891
 
     <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label">
         <obo:IAO_0000111>label</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">label</obo:IAO_0000111>
         <obo:IAO_0000115>A human readable name for this class.</obo:IAO_0000115>
         <obo:IAO_0000115>A human-readable name for the class/term.</obo:IAO_0000115>
         <obo:SCDO_0000340 rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
@@ -1513,6 +1683,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3603413&amp;group_id=177891
         <rdfs:label>label</rdfs:label>
         <rdfs:label xml:lang="en">label</rdfs:label>
         <rdfs:label>rdfs:label</rdfs:label>
+        <rdfs:label>标签</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -1528,7 +1699,9 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3603413&amp;group_id=177891
         <oboInOwl:is_class_level rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</oboInOwl:is_class_level>
         <oboInOwl:is_metadata_tag rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</oboInOwl:is_metadata_tag>
         <oboInOwl:shorthand>seeAlso</oboInOwl:shorthand>
+        <owlready_ontology:python_name xml:lang="en">see_also_rdf_schema</owlready_ontology:python_name>
         <rdfs:label>see also</rdfs:label>
+        <rdfs:label xml:lang="en">see also</rdfs:label>
         <rdfs:label>seeAlso</rdfs:label>
     </owl:AnnotationProperty>
     
@@ -1590,6 +1763,97 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3603413&amp;group_id=177891
         <rdfs:comment xml:lang="en">Such as C004931 for DPPH or D008180 for systemic lupus erythematosus.</rdfs:comment>
         <rdfs:label xml:lang="en">MeSH Descriptor ID</rdfs:label>
     </owl:AnnotationProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ADO_0000002 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/ADO_0000002">
+        <obo:IAO_0000115>The subject describes a clinically approved drug or therapy for a condition (object).</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ado.owl"/>
+        <rdfs:label xml:lang="de">isTreatmentFor</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ADO_0000003 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/ADO_0000003">
+        <obo:IAO_0000115>The subject describes as sign/symptom or multiple signs/symptoms for the object.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ado.owl"/>
+        <rdfs:label xml:lang="de">isSignAndSymptomFor</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ADO_0000004 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/ADO_0000004">
+        <obo:IAO_0000115>The subject possesses characteristics leading to an increased risk in developing a certain phenotype or condition (object). The example of risk factors could be age, family history, consumption of certain products, being exposed to chemicals or radiations, having certain underlying conditions or being infected by an microorganism</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ado.owl"/>
+        <rdfs:label xml:lang="de">isRiskFactorFor</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ADO_0000005 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/ADO_0000005">
+        <obo:IAO_0000115>The subject serves as an in vivo model for the study of a certain phenotype (object) during pre-clinical phase.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ado.owl"/>
+        <rdfs:label xml:lang="de">isModelFor</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ADO_0000006 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/ADO_0000006">
+        <obo:IAO_0000115>The subject is a technique carried out in a clinical assessment for evaluation of a condition (object).</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ado.owl"/>
+        <rdfs:label xml:lang="de">isDiagnosisFor</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ADO_0000007 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/ADO_0000007">
+        <obo:IAO_0000115>An subject that is a symptom, a sign, an underlying disease, a molecular abnormality, or a clinical result/outcome characterised as the key marker for the diagnosis/onset/classification of a certain condition (object).</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ado.owl"/>
+        <rdfs:label xml:lang="de">isClinicalMarkerFor</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ADO_0000008 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/ADO_0000008">
+        <obo:IAO_0000115>The subject describes any process that is carried out at the cellular level, but not necessarily restricted to a single cell for the object.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ado.owl"/>
+        <rdfs:label xml:lang="de">isCellularProcessFor</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ADO_0000009 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/ADO_0000009">
+        <obo:IAO_0000115>A relation describing an anatomical feature of the referenced object with a material entity.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ado.owl"/>
+        <rdfs:label xml:lang="de">isAnatomicalEntityFor</rdfs:label>
+    </owl:ObjectProperty>
     
 
 
@@ -4081,6 +4345,12 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3603413&amp;group_id=177891
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BPDO_00000098">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17103"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ADO_0000004"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_3312"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>Physiological attributes which at certain levels may be associated with an increased risk of certain diseases or death.</obo:IAO_0000115>
         <bpdo:Author>Thrishna</bpdo:Author>
         <bpdo:CommentOnHierarchy>&apos;No reference ontology to BFO classification available.&apos;
@@ -5650,7 +5920,6 @@ As per definition, &apos;parietal association cortex&apos; is a complex structur
     <!-- http://purl.obolibrary.org/obo/BPDO_00000189 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BPDO_00000189">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BPDO_00000125"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_0050117"/>
         <obo:IAO_0000115>Dysfunction of parvalbumin (PV)-positive GABAergic interneurons (PVIs) within the prefrontal cortex (PFC).</obo:IAO_0000115>
         <obo:IAO_0000118>parvalbumin-positive interneurons dysfunction</obo:IAO_0000118>
@@ -6933,7 +7202,6 @@ is diagnostic procedure.</bpdo:CommentOnHierarchy>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BPDO_00000264">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_3312"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PW_0000394"/>
         <obo:IAO_0000115>A pathway projects from the hypothalamus to the pituitary gland.</obo:IAO_0000115>
         <obo:IAO_0000118>tuberoinfundibular pathway</obo:IAO_0000118>
         <obo:NCIT_P325>Subcortical infarcts presenting with manic symptoms . Patients are typically older, with late-onset bipolar disorder, cognitive impairment, and extensive subcortical white matter hyperintense lesions on brain magnetic resonance images.</obo:NCIT_P325>
@@ -7331,6 +7599,12 @@ Refer: https://www.ebi.ac.uk/ols/ontologies/opmi/terms?iri=http%3A%2F%2Fpurl.obo
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CMO_0000035">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CMO_0000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ADO_0000007"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_3312"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cmo.owl"/>
         <obo:def>A measurement of the blood, it&apos;s contents, cells or other factors contained within the blood.</obo:def>
         <bpdo:Author>Thrishna</bpdo:Author>
@@ -7964,6 +8238,12 @@ OMIM mapping confirmed by DO. [SN].</rdfs:comment>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0050741">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_9973"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ADO_0000004"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_3312"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>A substance dependence that is characterized by tolerance, withdrawal symptoms, increasing use, persistent desire to decrease consumption, time spent obtaining or recovering from alcohol caused by a physical and psychological dependence on alcohol.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
         <bpdo:fromArticle></bpdo:fromArticle>
@@ -10555,6 +10835,12 @@ OMIM mapping confirmed by DO. [SN].</rdfs:comment>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_302">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_303"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ADO_0000004"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_3312"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>A substance-related disorder that involves a maladaptive pattern of substance use leading to significant impairment in functioning.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
         <bpdo:Author>Priya</bpdo:Author>
@@ -12218,6 +12504,12 @@ OMIM mapping confirmed by DO. [SN].</rdfs:comment>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0006304">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ADO_0000008"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_3312"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>The covalent alteration of one or more nucleotide sites in DNA, resulting in a change in its properties.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
         <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
@@ -12250,6 +12542,12 @@ OMIM mapping confirmed by DO. [SN].</rdfs:comment>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0007165">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ADO_0000008"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_3312"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>The cellular process in which a signal is conveyed to trigger a change in the activity or state of a cell. Signal transduction begins with reception of a signal (e.g. a ligand binding to a receptor or receptor activation by a stimulus such as light), or for signal transduction in the absence of ligand, signal-withdrawal or the activity of a constitutively active receptor. Signal transduction ends with regulation of a downstream cellular process, e.g. regulation of transcription or regulation of a metabolic process. Signal transduction covers signaling from receptors located on the surface of the cell and signaling via molecules located within the cell. For signaling between cells, signal transduction is restricted to events at and within the receiving cell.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
         <bpdo:Author>Priya</bpdo:Author>
@@ -17257,7 +17555,7 @@ Since ONTONEO has classifiied &apos;premature birth&apos;(pre-term birth) under 
     <!-- http://purl.obolibrary.org/obo/NCIT_C16358 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16358">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C19332"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
         <obo:IAO_0000115>An individual&apos;s weight in kilograms divided by the square of the height in meters.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
         <obo:NCIT_A24 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C49672"/>
@@ -18040,24 +18338,6 @@ Refer: https://www.ebi.ac.uk/ols/ontologies/efo/terms?iri=http%3A%2F%2Fwww.ebi.a
     
 
 
-    <!-- http://purl.obolibrary.org/obo/NCIT_C17456 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C17456">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C80519"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
-        <obo:NCIT_NHC0>C17456</obo:NCIT_NHC0>
-        <obo:NCIT_P106>Intellectual Product</obo:NCIT_P106>
-        <obo:NCIT_P108>Experimental Model</obo:NCIT_P108>
-        <obo:NCIT_P207>C0086272</obo:NCIT_P207>
-        <obo:NCIT_P366>Experimental_Model</obo:NCIT_P366>
-        <bpdo:Author>Thrishna</bpdo:Author>
-        <oboInOwl:hasExactSynonym>Experimental Model</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>Experimental Models, Other</oboInOwl:hasExactSynonym>
-        <rdfs:label>Experimental Model</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/NCIT_C17563 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C17563">
@@ -18248,6 +18528,12 @@ Since EFO is not an OBO ontology, it is not used in importedFrom.</bpdo:CommentO
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C18244">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17103"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ADO_0000004"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_3312"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>Health hazards at home, in the work place, or in nature (e.g., infectious agents, irritants, respiratory fibrotic agents, asphyxiants, allergens, metabolic poisons, physical agents, mutagens, teratogens, and carcinogens). (Winett et al: Health Psychology and Public Health)</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
         <obo:NCIT_NHC0>C18244</obo:NCIT_NHC0>
@@ -18376,7 +18662,7 @@ https://bioportal.bioontology.org/ontologies/ONTOAD?p=classes&amp;conceptid=http
     <!-- http://purl.obolibrary.org/obo/NCIT_C19146 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C19146">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17456"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
         <obo:IAO_0000115>The technique of performing a given procedure in a controlled environment outside of a living organism.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
         <obo:NCIT_NHC0>C19146</obo:NCIT_NHC0>
@@ -18401,7 +18687,7 @@ https://bioportal.bioontology.org/ontologies/ONTOAD?p=classes&amp;conceptid=http
     <!-- http://purl.obolibrary.org/obo/NCIT_C19148 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C19148">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17456"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_131567"/>
         <obo:IAO_0000115>Experimentation using a whole, living organism as opposed to a partial or dead organism.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
         <obo:NCIT_NHC0>C19148</obo:NCIT_NHC0>
@@ -18546,6 +18832,12 @@ Refer: https://www.ebi.ac.uk/ols/ontologies/opmi/terms?iri=http%3A%2F%2Fpurl.obo
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C20993">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C18020"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ADO_0000006"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_3312"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>Any evaluation or assessment tool used to ascertain a patient&apos;s condition or diagnosis.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
         <obo:NCIT_NHC0>C20993</obo:NCIT_NHC0>
@@ -18586,7 +18878,7 @@ Refer: https://www.ebi.ac.uk/ols/ontologies/opmi/terms?iri=http%3A%2F%2Fpurl.obo
     <!-- http://purl.obolibrary.org/obo/NCIT_C25150 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C25150">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C19332"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
         <obo:IAO_0000115>How long something has existed; elapsed time since birth.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
         <obo:NCIT_NHC0>C25150</obo:NCIT_NHC0>
@@ -18700,7 +18992,7 @@ Refer: https://www.ebi.ac.uk/ols/ontologies/opmi/terms?iri=http%3A%2F%2Fpurl.obo
     <!-- http://purl.obolibrary.org/obo/NCIT_C25347 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C25347">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C19332"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
         <obo:IAO_0000115>The vertical measurement or distance from the base to the top of an object; the vertical dimension of extension.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
         <obo:NCIT_NHC0>C25347</obo:NCIT_NHC0>
@@ -18754,7 +19046,7 @@ Refer:https://www.ebi.ac.uk/ols/ontologies/efo/terms?iri=http%3A%2F%2Fwww.ebi.ac
     <!-- http://purl.obolibrary.org/obo/NCIT_C25729 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C25729">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C19332"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
         <obo:IAO_0000115>The act of abiding by a stated treatment plan or protocol.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
         <obo:NCIT_NHC0>C25729</obo:NCIT_NHC0>
@@ -18923,7 +19215,7 @@ Refer:https://www.ebi.ac.uk/ols/ontologies/efo/terms?iri=http%3A%2F%2Fwww.ebi.ac
     <!-- http://purl.obolibrary.org/obo/NCIT_C34724 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C34724">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C19332"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000118"/>
         <obo:IAO_0000115>A birth weight that is less than 2500 grams.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
         <obo:NCIT_NHC0>C34724</obo:NCIT_NHC0>
@@ -19299,6 +19591,12 @@ https://www.ebi.ac.uk/ols/ontologies/gsso/terms?iri=http%3A%2F%2Fpurl.obolibrary
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C62736">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C18020"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ADO_0000006"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_3312"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>The examination of the cognitive capacities or deficits of an individual through the application of tests that probe that individual&apos;s ability to perform various mental activities such as perception, learning, and reasoning.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
         <obo:NCIT_NHC0>C62736</obo:NCIT_NHC0>
@@ -19702,6 +20000,12 @@ https://www.ebi.ac.uk/ols/ontologies/gsso/terms?iri=http%3A%2F%2Fpurl.obolibrary
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C80519">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16866"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ADO_0000005"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_3312"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>Systems designed to elucidate facts about complex biological phenomena, usually in a less complex or theoretical test environment.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
         <obo:NCIT_NHC0>C80519</obo:NCIT_NHC0>
@@ -19753,7 +20057,7 @@ Refer: https://www.ebi.ac.uk/ols/ontologies/gsso/terms?iri=http%3A%2F%2Fpurl.obo
     <!-- http://purl.obolibrary.org/obo/NCIT_C81328 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C81328">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C19332"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
         <obo:IAO_0000115>The weight of a subject.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
         <obo:NCIT_A24 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C49672"/>
@@ -20629,6 +20933,12 @@ https://www.ebi.ac.uk/ols/ontologies/ogms/terms?iri=http%3A%2F%2Fpurl.obolibrary
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGMS_0000090">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ADO_0000002"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_3312"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A planned process whose completion is hypothesized by a health care provider to eliminate, prevent, or alleviate a disorder, the signs and symptoms of a disorder, or a pathological process</obo:IAO_0000115>
         <obo:IAO_0000117>Albert Goldfain</obo:IAO_0000117>
         <obo:IAO_0000119>http://code.google.com/p/ogms/issues/detail?id=35</obo:IAO_0000119>
@@ -22343,6 +22653,12 @@ But &apos;mortality, premature&apos; is classified under the main term mortality
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000462">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000017"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ADO_0000003"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_3312"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>A symptom is a perceived change in function, sensation, loss, disturbance or appearance reported by a patient indicative of a disease.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/symp.owl"/>
         <bpdo:Author>Priya</bpdo:Author>
@@ -23224,6 +23540,12 @@ Refer: https://www.ebi.ac.uk/ols/ontologies/doid/terms?iri=http%3A%2F%2Fpurl.obo
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001062">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ADO_0000009"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_3312"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>Biological entity that is either an individual member of a biological species or constitutes the structural organization of an individual member of a biological species.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
         <bpdo:Author>Abish</bpdo:Author>
