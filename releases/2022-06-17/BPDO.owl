@@ -6945,7 +6945,7 @@ secondary psychoses  can be classified under &apos;psychotic disorder&apos;</bpd
     <!-- http://purl.obolibrary.org/obo/BPDO_00000250 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BPDO_00000250">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000016"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MFOMD_0000024"/>
         <obo:IAO_0000115>Acute or chronic exposures which hypothetically would impact on health mainly by directly threatening salient relationships.</obo:IAO_0000115>
         <bpdo:CommentOnHierarchy>&apos;social adversity&apos; comes under disposition
 As we are social being we have a disposition to face adversity.
@@ -10420,6 +10420,7 @@ OMIM mapping confirmed by DO. [SN].</rdfs:comment>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_2030">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_1561"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005084"/>
         <obo:IAO_0000115>A cognitive disorder that involves an excessive, irrational dread of everyday situations.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
         <bpdo:Author>Thrishna</bpdo:Author>
@@ -10623,6 +10624,7 @@ OMIM mapping confirmed by DO. [SN].</rdfs:comment>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_2468">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_1561"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005084"/>
         <obo:IAO_0000115>A cognitive disorder that involves abnormal thinking and perceptions resulting in a disconnection with reality.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
         <bpdo:Author>Thrishna</bpdo:Author>
@@ -10971,6 +10973,7 @@ OMIM mapping confirmed by DO. [SN].</rdfs:comment>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_3324">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_1561"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005084"/>
         <obo:IAO_0000115>A cognitive disorder that involves a disturbance in mood as the predominant underlying feature.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
         <bpdo:Author>Thrishna</bpdo:Author>
@@ -11892,6 +11895,7 @@ OMIM mapping confirmed by DO. [SN].</rdfs:comment>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_8646">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_1561"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005084"/>
         <obo:IAO_0000115>A psychiatric disease featured by delusions and/or hallucination during or soon after substance intoxication or withdrawal.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
         <bpdo:fromArticle></bpdo:fromArticle>
@@ -14893,6 +14897,35 @@ http://en.wikipedia.org/wiki/Vigilance_%28psychology%29</obo:IAO_0000115>
         <rdfs:label>metabolic syndrome</rdfs:label>
         <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCIT_C84442"/>
         <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_411969"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0005084 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0005084">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_150"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A disease that has its basis in the disruption of mental process.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/mondo.owl"/>
+        <terms:conformsTo rdf:resource="http://purl.obolibrary.org/obo/mondo/patterns/basis_in_disruption_of_process.yaml"/>
+        <terms:conformsTo rdf:resource="http://purl.obolibrary.org/obo/mondo/patterns/disrupts_process.yaml"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:150</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EFO:0000677</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICD9:290-299.99</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICD9:298.8</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICD9:V11.9</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH:D001523</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT:C2893</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NIFSTD:birnlex_12669</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SCTID:74732009</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:CN240636</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disorder of mental process</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mental or behavioural disorder</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mental process disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MONDO:0005084</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mental disorder</rdfs:label>
+        <skos:exactMatch rdf:resource="http://identifiers.org/snomedct/74732009"/>
+        <skos:exactMatch rdf:resource="http://linkedlifedata.com/resource/umls/id/CN240636"/>
     </owl:Class>
     
 
